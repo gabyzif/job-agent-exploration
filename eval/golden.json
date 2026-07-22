@@ -1,0 +1,918 @@
+{
+  "_meta": {
+    "version": "1.1",
+    "labeler": "G + Claude (paired)",
+    "createdAt": "2026-06-08",
+    "labelingRules": {
+      "label": "yes | no | maybe",
+      "expectedScore": "1-10 integer, how G honestly scores the fit",
+      "expectedMatchType": "direct | stretch | reach | skip",
+      "evalCounting": "yes vs not-yes for precision/recall. maybe excluded from primary metrics but kept for analysis."
+    }
+  },
+  "cases": [
+    {
+      "id": "marfeel-fe-eng",
+      "company": "Marfeel",
+      "title": "Frontend Engineer",
+      "location": "Barcelona, Spain (Hybrid)",
+      "description": "We are looking for a Frontend Engineer with a strong foundation in JavaScript and a sharp eye for performance. You will build the interfaces that bring our analytics platform to life: writing clean, performant JavaScript from first principles and creating interactive components for publishers around the world. You use AI coding tools as a core part of how you work, and you are excited about what that unlocks. You will work in a collaborative team environment alongside backend developers, UX designers and product managers, and you will have real ownership over the frontend code you write.\n\nThis is what you will do:\n\nWrite clean, well-structured JavaScript and CSS across all modern browsers\nWrite vanilla JavaScript where appropriate: you reach for the framework when it adds value, not by default\nBuild interactive, high-performance UI components using React and TypeScript\nCreate and maintain a component library using Storybook and styled-components\nCollaborate with UX designers to implement pixel-accurate, intuitive interfaces\nWork on performance: scroll, rendering, load times and jank are things you care about\nContribute to frontend architecture decisions and coding standards\nWork in an Agile environment with short, focused sprints\n\nThis is you:\n\n5+ years of experience building frontend applications at web scale\nStrong vanilla JavaScript skills: you write clean, framework-independent JS and understand the language deeply, not just the abstractions on top of it\nProficiency in TypeScript and React\nYou use AI coding tools: Claude Code, Cursor, Copilot or similar, as a natural part of your development workflow, not as an afterthought\nSolid understanding of HTML5, CSS and cross-browser development\nDeep understanding of browser performance: rendering, caching, scroll performance, junk and paint cycles\nSolid experience with UI component architecture and design systems\nFamiliar end-to-end and integration testing (Jest or similar)\nYou care about code quality: pair programming, TDD, collective ownership and iterative delivery are part of how you work\nYou speak Spanish and English\n\nWe will be impressed by experience in:\n\nRecent web platform APIs: Web Animation API, Web Workers, CSS 3D transformations, ES2020+\nExperience with large-scale cloud-deployed web applications\nExperience integrating AI tooling into development workflows in a meaningful way: using agents, MCP servers, or AI-assisted development at team level\nFamiliarity with CI/CD workflows and tools such as Jenkins, GitHub Actions or Docker\nAn interest in data visualization and working with real-time data in the UI\nUX design sensibility or experience collaborating closely with designers\nActive contributions to open-source projects",
+      "label": "yes",
+      "expectedScore": 9,
+      "expectedMatchType": "direct",
+      "reason": "Stack exacto + AI culture genuina + Barcelona. JD es literal su charla de conferencia.",
+      "redFlags": [],
+      "greenFlags": [
+        "barcelonaHybrid",
+        "aiFirstReal",
+        "stackMatchReactTSNode",
+        "designSystems"
+      ],
+      "outcome": "advanced_to_interview_then_mutual_no_fit"
+    },
+    {
+      "id": "titan-fe-eng",
+      "company": "Titan OS",
+      "title": "Frontend Engineer",
+      "location": "Barcelona, Spain (Hybrid)",
+      "description": "Titan Operating System S.L. (Titan OS), the Barcelona-based technology, entertainment, and advertising company, is looking for you!\n\nOur platform combines content discovery and advertising technology in one solution, helping leading TV brands unlock greater value. Titan OS powers devices from major brands including Philips, AOC and JVC, reaching millions of viewers across Europe and LATAM. Titan OS is also powering free premium FAST Channels on selected SONY Android TVs.\n\nOver the last two years, Titan OS has grown revenue 10x and attracted leading investors, including Highland Europe and Mangrove.\n\nAt TitanOS, we live by three core values:\n\nMake things happen - We take ownership, move fast, and deliver impact\nNo ego - We collaborate with respect and humility to reach shared goals\nShow genuine passion - We love what we do and never stop learning\n\nCulture and environment are at the heart of our ethos. If the above resonates with you, keep reading because we believe you could be a perfect addition to our incredible team!\n\nRole overview:\n\nAs a Frontend Engineer, you will play a pivotal role in our frontend engineering team. You will work alongside our other engineers to shape the architectural framework of our applications, code intricate frontend components, and orchestrate the deployment of the final product that is seen in millions of homes worldwide.\n\nKey responsibilities:\n\nImprove architecture and coding standards in the frontend\nEnsure projects are delivered on time and developers are working effectively\nParticipate and assist in setting the long-term direction, roadmaps, and standards for the web app\nDesign, code, test, maintain and deliver features of the web app\nFollow the processes for software development and documentation\nConduct code reviews of work done by other engineers in the team\nWork with backend engineers, product managers, and UX designers to deliver new features\nEstablish and track SLAs (internal and external), KPIs, and team objectives\n\nRequirements\n\nWhat makes you a great fit:\n\n7+ years of relevant experience as a JavaScript developer with React\nExpertise in HTML5, CSS\nExperience with Cypress\nExperience consuming RESTful APIs\nKnowledge of computer science fundamentals and a strong understanding of SOLID principles and software architecture best practices\nLove for writing clean, modular code in a fast-paced, agile development model\n\nNice to have:",
+      "label": "yes",
+      "expectedScore": 8,
+      "expectedMatchType": "direct",
+      "reason": "Scale-up Series B con backers fuertes, scope senior real, Barcelona, 7+ años React.",
+      "redFlags": [
+        "startupSmall"
+      ],
+      "greenFlags": [
+        "barcelonaHybrid",
+        "startupSolidSignals"
+      ],
+      "outcome": "reached_final_interview"
+    },
+    {
+      "id": "emotion-fullstack",
+      "company": "Emotion",
+      "title": "Senior Full Stack Software Engineer",
+      "location": "Barcelona, Spain (Hybrid)",
+      "description": "What You'll Do\nOwn the technical roadmap\nPlan and prioritise what gets built, aligning engineering effort with business goals.\nTranslate strategy into a coherent technical plan and make sure the team works on the right things.\nMake architectural decisions independently and be accountable for their outcomes.\n\nBuild tools that make our operations team faster\nDesign and ship internal platforms that eliminate manual work and increase operational capacity.\nOwn features end-to-end, from scoping and architecture to deployment.\nIdentify inefficiencies and proactively propose technical solutions to address them.\n\nOwn and evolve our platforms\nOwn the quality, performance, and roadmap of our customer-facing platform, and expand its scope over time.\nBuild new solutions that moves the business forward.\n\nLead and mentor\nBe the go-to reference for developers with less seniority, reviewing their work, unblocking them, and supporting their growth.\nRun regular 1-to-1s and contribute to career development conversations.\nAct as the reporting figure for the tech team.\n\nBe part of strategic conversations\nSit in on business strategy discussions and have a genuine say in where the company goes. This role gives you real visibility into how the business operates beyond the engineering lane. You'll be a key member of the management team, involved in the decisions that shape the company.\n\nChallenge decisions, product, business, and technical\nBring a critical mindset to every decision, asking the right questions, challenging assumptions, and making sure what gets built is always worth building.\nThink from a user experience and product perspective before jumping into implementation.\nBe an active participant in business discussions, not a passive executor.\n\nThe Stack\nNext.js + TypeScript (strict mode).\ntRPC + Prisma.\nGitHub (CI/CD).\nThird-party API integrations.\nBasic DevOps; nothing overly complex, but you'll need to be comfortable diagnosing and resolving infrastructure issues when they arise.\nAI tooling: we actively build AI-powered solutions and use AI tools to move faster; comfort with this is expected, not a bonus.\n\nWhat We're Looking For\n3+ years of full-stack development experience, we care more about what you can do than how long you've been doing it.\nSolid command of TypeScript and the React / Next.js ecosystem.\nGenuinely AI-first: you don't just use AI tools, you're always looking for ways to get more out of them, both in how you develop and in the solutions you build. You see AI as a permanent part of how good work gets done, and you'll actively push the team to use it more and better, not wait to be convinced.\nComfortable working autonomously, you'll be the only senior developer, so you need to be confident making technical decisions without someone to validate every step.\nProactive and self-directed, when you hit an unknown, you find a way through it.\nCalm under uncertainty, you don't freeze when something breaks or when the path forward isn't clear.\nStrong product intuition: you think about user experience and business value, not just implementation.\nCurious and growth-oriented, you want to understand the business, not just the codebase.\nComfortable in a fast-paced, pivot-friendly environment, priorities shift, and that energises rather than frustrates you.\nFluent in English (required); Spanish and/or Catalan is a plus.\n\nWhat We Offer\n55,000-60,000 EUR / year, depending on experience.\nHybrid setup: 3 days at Norsken Coworking (next to the W Hotel, sea views), 2 days remote.\nStrategic access: you'll be in the room where business decisions are made, not just building what others decide.\nReal ownership: small team, real impact; what you ship matters immediately.\nGrowth beyond tech: exposure to business strategy, operations, and product that most developer roles simply don't offer.\nRoom to grow into a lead: an ideal step for a developer ready to take on technical leadership and expand beyond pure engineering.\nA great place to work: a collaborative, fun, fast-moving team that values your opinion and trusts you to deliver.",
+      "label": "yes",
+      "expectedScore": 8,
+      "expectedMatchType": "stretch",
+      "reason": "AI-first explícito + Next.js + tech lead role. Stretch fullstack.",
+      "redFlags": [],
+      "greenFlags": [
+        "barcelonaHybrid",
+        "aiFirstReal",
+        "leadershipScope"
+      ],
+      "outcome": "advanced_to_interview_then_g_withdrew"
+    },
+    {
+      "id": "dowjones-staff-ai",
+      "company": "Dow Jones",
+      "title": "Staff Software Engineer, AI Enablement Team",
+      "location": "Barcelona, Spain (Hybrid)",
+      "description": "We are a global leader in AI-driven retail pricing and analytics, part of Dow Jones. We take ownership of mission-critical customer projects with real market impact and collaborate with industry experts shaping the future of dynamic pricing.\n\nOur core product is PriceCast Fuel, an AI-first enterprise solution that is designed to support strategic decision-making for retail companies in volatile markets.\nAs a solution-oriented Senior Front-End Engineer, you will play a central role in the continued development of our next generation enterprise Dashboard 4.0, collaborating with expert users ensuring we design a clean and simple but yet powerful UI ready for GenAI. You will work independently on moderately complex projects and act as a go-to technical problem-solver for the team. In this position, you will report directly to our Front-End Principal Software Engineer.\n\nYou Will\n\nLead the design, development, and maintenance of robust and scalable front-end features using modern web frameworks with minimal oversight.\nActively participate in the analysis and design phases, proactively identifying areas for codebase improvement, ensuring system health through refactoring, and setting technical standards.\nExhibit a driven, detail-oriented approach by engaging with the team pair programming, structured code reviews, and constructive feedback.\n\nYou Have\n\n2-4 years of practical experience in front-end software development.\nBachelor’s degree in Computer Science, Software Engineering, or equivalent experience.\nExtensive technical expertise developing enterprise SaaS solutions and user interfaces using JavaScript, HTML5, CSS, TypeScript and one or more of the top 3 frontend frameworks (React, Angular, Vue.js).\nExperience working with full stack meta-frameworks such as Next.js, Nuxt etc.\nExperience working with REST, GraphQL or similar.\nStrong knowledge of writing robust automated front-end tests and experience working with frameworks such as Vitest, Playwright or similar.\nThe ability to systematically analyze problems, independently make informed technical decisions, and contribute to architectural discussions.\nNice-to-have: Experience working with Business Intelligence (BI) tools such as Qlik Sense, Power BI, and integrating those deep into the application.\nNice-to-have: Prior experience working in a Scrum-inspired agile environment using tools like JIRA and IntelliJ and source control (Git).",
+      "label": "yes",
+      "expectedScore": 9,
+      "expectedMatchType": "stretch",
+      "reason": "Tier 1 enterprise + Staff + AI Enablement team + stack agnostic. Match sweet spot.",
+      "redFlags": [],
+      "greenFlags": [
+        "barcelonaHybrid",
+        "aiFirstReal",
+        "leadershipScope"
+      ],
+      "outcome": "applied_pending_response"
+    },
+    {
+      "id": "expereo-swe-fe",
+      "company": "Expereo",
+      "title": "Software Engineer (Front End)",
+      "location": "Unknown (verify Barcelona)",
+      "description": "We are the Intelligent Internet Platform. We connect People, Places and Things anywhere, managing Internet Performance better than anyone else, while providing One Global Experience, giving Visibility, Control and Security through expereoOne.\n\nExpereo believes in the power of Internet connectivity. As the world's largest provider of managed internet, SD-WAN/SASE, and Cloud connectivity solutions, we power enterprises and government sites worldwide, helping to enhance every business' productivity with flexible and optimal Internet performance.\n\nAs a trusted partner of Fortune 500 enterprises and carriers, our continued aim and success in helping both our customers and partners depends solely on the talented individuals that make Expereo a dynamic, effective, multicultural, and equitable environment.\n\nAbout the role\n\nWe are building a new Digital Office to accelerate Expereo's transformation through the Single-Threaded Owner (STO) model. As a Software Engineer (Front End) in either the Commercial XP or In-Life XP STO, you will be part of a full-stack, outcome-driven squad focused on delivering intuitive, performant, scalable digital experiences.\n\nYou will design and implement modern front-end applications, shared UI components, and frameworks that support automation, observability, and a fully programmable platform. This role is ideal for engineers who thrive in impact-driven, cross-functional teams and enjoy building elegant user experiences backed by solid engineering rigor.\n\nKey Responsibilities\n\nFront-End Application Development\n\nBuild and maintain dynamic, responsive web applications using modern front-end frameworks (React).\nDevelop reusable UI components, design systems, and cross-STO shared libraries.\nIntegrate front-end applications with internal/external APIs and platform services.\nPerformance, Quality & Reliability\n\nEnsure front-end applications meet the highest standards of performance, accessibility, and security.\nImplement automated testing across unit, integration, and end-to-end layers.\nBuild observability into user-facing applications, enabling proactive monitoring and rapid issue resolution.\nAutomation & Standardization\n\nPromote consistent coding patterns and architectural standards across squads.\nContribute to CI/CD pipelines for front-end delivery, including build optimization and automated quality gates.\nDrive improvements that reduce manual processes and accelerate release cycles.\nFacilitating Innovation\n\nSupport Partner with designers, architects, and back-end engineers to explore new product capabilities.\nSupport initiatives like agentic AI enablement, data-driven UX, and programmable network experiences.\nContribute to reference implementations and front-end engineering guardrails.\n\nRequirements\n\nMust Have\n\nStrong proficiency with JavaScript and TypeScript.\nExperience with modern frameworks such as React\nUnderstanding of component-based architecture and state-management patterns (Redux, Zustand, Vuex, etc.).\nExperience integrating with REST APIs, GraphQL and microservices.\nFamiliarity with front-end build tools (Vite, Babel,..) and CI/CD pipelines.\nFamiliarity with css frontends (Tailwind, Bulma, ...)\nKnowledge of automated testing frameworks (Jest, Cypress, Playwright).\nUnderstanding of accessibility (WCAG), UI performance tuning, and responsive design.\nNice to have\n\nExposure to agentic AI Experience with design systems or component libraries (Storybook, MUI, Chakra).\nKnowledge of C# /.Net Core\nExposure to agentic AI concepts or data-driven UI architectures.\nFamiliarity with AI Agents and tools (Cursor, Claude Code, Codex)\nFamiliarity with programmable networks or observability tooling.\nExperience with low-code platforms (Mendix, Salesforce).\nUnderstanding of security best practices in the front-end (content security policy, dependency scanning, RBAC patterns).\nFamiliarity with AWS cloud infrastructure and services\nMindset\n\nBuilder mentality with strong ownership.\nCode-first, automation-first approach.\nA full-stack learning approach to ensure team resilience.",
+      "label": "yes",
+      "expectedScore": 8,
+      "expectedMatchType": "direct",
+      "reason": "Stack matchea 100% (React/TS/Zustand/Tailwind/Vite/Cypress + design systems). Claude Code mencionado en nice-to-have.",
+      "redFlags": [],
+      "greenFlags": [
+        "aiFirstReal",
+        "designSystems"
+      ],
+      "outcome": "silent_rejection_via_template"
+    },
+    {
+      "id": "agap2-sr-fe",
+      "company": "Agap2",
+      "title": "Senior Frontend Developer",
+      "location": "Barcelona, Spain (Hybrid)",
+      "description": "En AGAP2, grupo europeo de consultoría en ingeniería y tecnología, seguimos impulsando la innovación a través de proyectos tecnológicos de alto valor. Buscamos incorporar un/a Frontend Developer con experiencia en React y TypeScript, que quiera formar parte de un entorno dinámico, colaborativo y orientado al crecimiento profesional.\n\nResponsabilidades:\n\nDesarrollo y mantenimiento de aplicaciones frontend con React, TypeScript y Next.js.\nAplicación de buenas prácticas, patrones de diseño y Atomic Design.\nTrabajo con arquitectura monorepo.\nIntegración con APIs y servicios de terceros.\nDesarrollo y publicación de aplicaciones en entornos nativos.\nUso de CMS Headless (Strapi).\nImplementación de CI/CD.\nTesting unitario y E2E (React Testing Library, Playwright).\nColaboración con equipos multidisciplinares y revisión de código.\n\nRequisitos:\n\n+5 años de experiencia como Frontend Developer\nExperiencia sólida con React\nDominio de TypeScript, HTML y CSS modernos\nConocimientos en arquitectura frontend, gestión de estado, performance y testing\nExperiencia con Git\nPerfil proactivo, crítico y orientado a la mejora continua\nCapacidad para comunicar decisiones técnicas con claridad\n\nOfrecemos:\n\nContrato indefinido.\nJornada completa y modalidad de trabajo en REMOTO.\nDispondrás de retribución flexible, ticket restaurant, seguro médico, entre otros beneficios.\nFlexibilidad horaria.\nFormación continua y acceso a múltiples cursos y certificaciones.\nParticipar en proyectos desafiantes en un entorno dinámico.\n\nSi te interesa la oportunidad y conocer todos los detalles, no dudes en aplicar al puesto para que podamos contactarte y hablar mejor sobre la posición, darte toda la información y resolver cualquier duda que te pueda surgir.\n\nAgap2 es una empresa que ofrece igualdad de oportunidades, por ello nos comprometemos a tratar todas las candidaturas por igual en función de sus capacidades, logros y experiencia. Animamos a cualquier persona a presentar su candidatura que será tratada con igualdad de oportunidades independientemente de su raza, nacionalidad, sexo, edad, discapacidad, orientación sexual, identidad de género o cualquier otra característica.",
+      "label": "yes",
+      "expectedScore": 7,
+      "expectedMatchType": "direct",
+      "reason": "Consultora grande conocida (Adecco group), stack matchea Next.js+Tailwind+Storybook+Vitest.",
+      "redFlags": [],
+      "greenFlags": [
+        "barcelonaHybrid",
+        "knownConsultancy",
+        "designSystems"
+      ],
+      "outcome": "recruiter_reached_out_inbound"
+    },
+    {
+      "id": "randstad-tl-react",
+      "company": "Randstad Digital",
+      "title": "Senior Frontend Developer (Next.js)",
+      "location": "Barcelona, Spain (Hybrid)",
+      "label": "yes",
+      "expectedScore": 7,
+      "expectedMatchType": "direct",
+      "reason": "Consultora grande Fortune 500 (Randstad), stack matchea exacto.",
+      "redFlags": [],
+      "greenFlags": [
+        "barcelonaHybrid",
+        "knownConsultancy"
+      ],
+      "outcome": "reached_final_interview"
+    },
+    {
+      "id": "eqs-sr-swe-privacy",
+      "company": "EQS Group",
+      "title": "Senior Software Engineer (Privacy team)",
+      "location": "Barcelona, Spain (verify) / France",
+      "label": "yes",
+      "expectedScore": 8,
+      "expectedMatchType": "direct",
+      "reason": "AI-first explícito + React/TS/Node core + Barcelona office disponible. 600 empleados tier 2 EU.",
+      "redFlags": [],
+      "greenFlags": [
+        "aiFirstReal",
+        "stackMatchReactTSNode"
+      ],
+      "outcome": "not_yet_applied"
+    },
+    {
+      "id": "mediamarkt-sr-swe-fe",
+      "company": "Media Markt (Ceconomy)",
+      "title": "Senior Software Engineer (Frontend focus)",
+      "location": "Barcelona, Spain (Hybrid)",
+      "description": "Your Tasks\n\nThe Payment & Basket Platform team is a foundational team working on our core stack to improve developer experience in the area.\n\nThe team’s focuses on Infrastructure, Backend Engineering and Frontend Engineering. For this role, you will take over ownership of our Backoffice Application Stack, which is used by our Product Teams to build their individual UIs for internal stakeholders.\n\nThe team is looking for a Software Engineer aligned with this profile and a strong frontend focus and the ability to move the Frontend Stack forward and guide other teams in the extension of our Backoffice Applications.\n\nDevelop new features for the backoffice on given requirements and user needs\nIntegrating our graphical user interfaces with the backend service landscape of Payment & Basket\nWorking closely with technical product owner and engineers on scalable frontend solutions.\nConduct code reviews, debugging, and troubleshooting to ensure high-quality code.\n\nYour Profile\n\nTypical Experience\n\n7 years+ as Software Engineer or equivalent frontend development experience.\n\nDemonstrates growing independence in delivering complex frontend features within cross-functional teams.\n\nSpecialist Knowledge And Experience\n\nBuilds and maintains production-ready web applications using modern frontend frameworks.\n\nDesigns reusable UI components and contributes to shared libraries and design systems.\n\nIntegrates APIs (REST/GraphQL) and ensures application state consistency and performance.\n\nApplies accessibility, testing, and performance optimization best practices with minimal supervision.\n\nPlanning, Organization and Integration\n\nPlans and implements features based on user stories and technical requirements.\n\nCollaborates across frontend, backend, and design teams to align architectural and design decisions.\n\nSupports sprint planning, estimation, and refinement sessions with accurate input.\n\nContributes to deployment, release, and monitoring workflows.\n\nSpecialist Career Focus\n\nManages own workload and prioritizes effectively in alignment with team goals.\n\nMentors other engineers and supports onboarding of new team members.\n\nContributes to continuous improvement of frontend architecture, tooling, and documentation.\n\nLeadership Career Focus\n\nLeads platform delivery end-to-end, from concept to production.\n\nDrives discussions around frontend standards, best practices, and scalability.\n\nCommunication and Influence\n\nCommunicates clearly across disciplines, translating technical concepts for non-technical stakeholders.\n\nProvides constructive feedback in code reviews and technical discussions.\n\nValue of Responsibility\n\nDelivers reliable, maintainable, and well-documented frontend solutions.\n\nEnsures solutions align with organizational standards, user experience goals, and accessibility compliance.\n\nAbout Us\n\nMediaMarktSaturn is Europe’s leading consumer electronics retailer. It sees itself as a partner, daily companion and navigator for its customers in the digital world. Its over 1,000 MediaMarkt and Saturn stores are closely integrated with their online shops. MediaMarktSaturn has a total headcount of more than 60,000.\n\nMediaMarktSaturn Technology is working on making Europe's number one consumer electronics retailer the technology leader in its sector. To this end, several hundred developers, UX designers and system architects using state-of-the-art technology work hand in hand with business owners in agile teams to develop customer-focused technology solutions for more than 6 million customers every day in 11 countries.\n\nTechnology Hub located in Barcelona, is one of the service units of MediaMarktSaturn Technology to deliver adequate staffing and engineering skills for the agreed deliveries of the global deployment plan for the entire group.\n\nAdditional Benefits\n\nYoung environment, where not everything is written in stone, and where you are expected to contribute and co-create the culture of the Tech Hub and international collaboration model\nYou'll have a 10% discount on the entire MediaMarkt website, so you can treat yourself at a lower price whenever you want!\nOn top of your compensation package, you can request Flexible Pay MediaFlex program, such as Ticket Restaurant or Private Health Insurance with Adeslas.\nFlexible working time and possibility to combine home office and presential working. Intensive workday every Friday and during summer.\nThe possibility to choose between 2 offices: the first one is the MediaMarkt Spain HQ with a very attractive menu at a price. You'll eat for less than 4 EUR! And the second office is located at Pier01, in Barceloneta, right in the center of Barcelona. Free coffee and free fruit once a week.\nIf you need a visa, don't worry, we'll assist you with the visa process and accompany you throughout the entire process.\nThere is a training budget so you can continue developing the skills you need most to keep growing professionally and personally.\nWe offer language classes: English, Spanish, and German.\nOn your birthday, you won't work. It's a day for you to enjoy without thinking about work.\nYou'll be working with the most cutting-edge technological stack of the moment.",
+      "label": "yes",
+      "expectedScore": 7,
+      "expectedMatchType": "stretch",
+      "reason": "Tier 1 enterprise retail estable, 7+ años matchea, design systems + REST/GraphQL + mentoring. No AI focus.",
+      "redFlags": [],
+      "greenFlags": [
+        "barcelonaHybrid",
+        "designSystems",
+        "leadershipScope"
+      ],
+      "outcome": "not_yet_applied_cv_adapted"
+    },
+    {
+      "id": "teamblue-sr-fe-react",
+      "company": "team.blue Hub",
+      "title": "Senior Front-End Developer (React)",
+      "location": "Remote EU (Barcelona option)",
+      "description": "team.blue is an ecosystem of 60+ successful PaaS and SaaS brands working together across 22 European countries to provide its 3.5 million SMB customers with everything they need to succeed online by offering best-in-class expertise and services.\n\nteam.blue's brands are a mix of traditional hosting businesses that offer services from domain names, email, shared hosting, e-commerce, and server hosting solutions and, as specialist SaaS providers, adjacent products such as compliance, marketing tools, and team collaboration products. This broad product offering makes it a one-stop partner for online businesses and entrepreneurs across Europe.\n\nteam.blue hub\n\nteam.blue hub is a new internal startup within the team.blue group, created to deliver a unified, intelligent experience across all team.blue brands. Six months ago, we started building this small, top-tier team with complete autonomy, using AI as leverage across every workflow to ship fast, think clearly, and achieve measurable results. Now, after six months in the market with the first squad, we are growing from 1 to 3 squads to deliver a complete Hub experience.\n\nPosition\n\nDevelop and maintain the user-facing components of the Hub: notification widgets, in-product UI, the footer surface, and the upcoming Hub dashboard. Build clean, scalable front-end systems using React and TypeScript, working closely with designers and back-end engineers.\n\nResponsibilities\n\nBuild responsive, high-quality interfaces with React and TypeScript\nDevelop modular UI components and shared libraries\nImplement dashboards, configuration panels, and embedded user flows\nCollaborate with designers and back-end developers for seamless integration\nPick up backend tasks at journeyman level as needed, such as small endpoints and data fetching\nContribute to agentic / conversational UI surfaces as the Hub evolves\nEnsure accessibility, performance, and reliability\n\nRequirements\n\nAt least 5 years of experience in software development\nExpert in React, TypeScript, HTML, and CSS\nStrong understanding of state management, API integration, and testing\nExperience with performance optimization and scalable front-end architecture\nSkilled in AI-assisted coding and Claude Code workflows, comfortable relying on them to move faster and better\nReliable, autonomous, and detail-oriented\nExcellent communication and collaboration skills\nFluent in English, both written and spoken\n\nCulture and Principles\n\nAI-first, high-ownership culture. We are a flat organisation of senior individual contributors who use AI daily to accelerate their work. There are no traditional managers — people are trusted to manage themselves, take ownership, and drive outcomes.\nRemote-first, async by default. Decisions, plans, trade-offs, roadmap, and company performance are documented and accessible. Clear written communication is essential, and cross-team decisions are resolved through documentation and ADRs rather than escalation chains.\nStartup speed with enterprise impact. Small teams, large responsibility, same-week decision cycles, and a focus on simplicity, reliability, and measurable business outcomes.",
+      "label": "maybe",
+      "expectedScore": 6,
+      "expectedMatchType": "stretch",
+      "reason": "AI-first cultura genuina + Claude Code mencionado + agentic UI. PERO 'internal startup' dentro de scale-up, intuición de no-fit.",
+      "redFlags": [
+        "startupFragileRisk"
+      ],
+      "greenFlags": [
+        "remoteEU",
+        "aiFirstReal"
+      ],
+      "outcome": "clicked_apply_did_not_complete"
+    },
+    {
+      "id": "allianz-ai-fullstack",
+      "company": "Allianz Technology",
+      "title": "AI Full Stack Developer",
+      "location": "Unknown (verify Barcelona)",
+      "description": "At Allianz Technology, we are driving innovation at a global scale. As an AI Full Stack Developer, you will play a key role in building intelligent, scalable solutions within our Business Master Platform (BMP) — a strategic initiative transforming the way Allianz operates worldwide.\n\nThis is your opportunity to combine cutting-edge AI capabilities with full-stack development, working in an international, agile environment alongside experts who are shaping the future of insurance technology.\n\nAbout The Business Master Platform (BMP)\n\nThe Business Master Platform (BMP) is a strategic global initiative of Allianz. BMP aims to design, build, and provide standardized global business solutions to Allianz Operating Entities (OEs) across countries. The objective of BMP is to harmonize core insurance processes, increase operational efficiency, ensure regulatory compliance, and enable scalable digital capabilities across markets.\n\nWhat Makes This Role Exciting\n\nWork on a global, high-impact platform used across multiple countries\nBring AI-driven innovation into real business solutions\nCollaborate with cross-functional, international teams\nBe part of a company recognized as a Top Employer and Great Place to Work\nGrow your expertise in a modern, agile, and learning-driven environment\n\nYour Key Responsibilities\n\nDesign and develop end-to-end AI-enabled applications across frontend, backend, and data layers\nIntegrate AI/ML solutions and intelligent automation into business processes\nBuild and maintain modern web applications using Angular and TypeScript\nDevelop and integrate APIs, microservices, and event-driven architectures\nEnsure scalability, performance, and security of applications\nCollaborate closely with Product Owners, Architects, and stakeholders\nContribute to CI/CD pipelines and cloud-based deployments\nEnsure alignment with Allianz architecture, security, and quality standards\n\nWhat You Bring\n\nStrong experience in Full Stack Development\nBackend: Java (Spring Boot, Spring ecosystem), REST APIs, event-driven systems (Kafka)\nFrontend: JavaScript / TypeScript, Angular or similar frameworks\nDatabases: MongoDB or other NoSQL solutions\nExposure to AI/ML, automation tools, or GenAI solutions\nExperience with CI/CD pipelines, GitHub, and agile methodologies\nA mindset focused on innovation, problem-solving, and continuous improvement\n\nWhat We Offer\n\nWe offer a hybrid work model which recognizes the value of striking a balance between in-person collaboration and remote working incl. up to 25 days per year working from abroad\nWe believe in rewarding performance and our compensation and benefits package includes a company bonus scheme, pension, employee shares program and multiple employee discounts (details vary by location)\nFrom career development and digital learning programs to international career mobility, we offer lifelong learning for our employees worldwide and an environment where innovation, delivery and empowerment are fostered\nFlexible working, health and wellbeing offers (including healthcare and parental leave benefits) support to balance family and career and help our people return from career breaks with experience that nothing else can teach\n\nAbout Allianz Technology\n\nWith its headquarters in Munich, Germany, Allianz Technology is Allianz's global IT service provider, delivering IT solutions that drive the group's digitalization. With more than 11,000 employees in over 20 countries worldwide, Allianz Technology is tasked with running, optimizing, transforming, and innovating the infrastructure, applications, and services together with Allianz companies to co-create the best customer experience. We service the entire spectrum of digitalization, from one of the industry's largest IT infrastructure projects that spans data centers, networks, and security, to application platforms ranging from workplace services to digital interaction. In short: We deliver comprehensive end-to-end IT solutions for Allianz in the digital age. We are the backbone of Allianz.\n\nCommitment to Integrity, Fairness and Inclusion\n\nAllianz Technology is proud to be an equal opportunity employer dedicated to fostering an inclusive work environment for everyone. We embrace individuals of all gender identities and expressions, sexual orientations, ethnicities, ages, nationalities, religions, disabilities, and philosophies of life. Ultimately, our greatest strength as a company lies in the unique skills, experiences, and backgrounds our employees contribute. We therefore welcome applications regardless of race, ethnicity or cultural background, age, gender, nationality, religion, social class, disability, or sexual orientation, or any other characteristics protected under applicable local laws and regulations.\n\nTo Recruitment Agencies\n\nAllianz Technology has an in-house recruitment team that sources great candidates directly. Therefore, Allianz Technology does not accept unsolicited resumes from agencies or search firm recruiters. When we do work with recruitment agencies, that engagement is formalized by a contract. Fees will only be paid when there is a contract in place. Without a contract in place, we will not accept invoices on unsolicited resumes, even if the candidate was ultimately employed by Allianz.",
+      "label": "maybe",
+      "expectedScore": 6,
+      "expectedMatchType": "stretch",
+      "reason": "Tier 1 enterprise + AI focus genuino + GenAI explícito. PERO stack core Java/Spring + Angular = pivot técnico real.",
+      "redFlags": [
+        "legacyStackCore"
+      ],
+      "greenFlags": [
+        "aiFirstReal"
+      ],
+      "outcome": "not_applied"
+    },
+    {
+      "id": "kyndryl-ai-agentic-fs",
+      "company": "Kyndryl",
+      "title": "AI Agentic Full Stack Developer",
+      "location": "Barcelona, Spain (Partially Remote)",
+      "description": "Who We Are\n\nAt Kyndryl, we run and reimagine the mission-critical technology systems that drive advantage for the world’s leading businesses. We are at the heart of progress; with proven expertise and a continuous flow of AI-powered insight, enabling smarter decisions, faster innovation, and a lasting competitive edge. For our people — Kyndryls — that means doing purposeful work that powers human progress. Join us and experience a flexible, supportive environment where your well-being is prioritized and your potential can thrive.\n\nThe Role\n\n#AgenticAI\n\nWe’re looking for exceptional talent to join our AI Agentic Innovation Hub at Kyndryl!\n\nAs a Full Stack Developer at Kyndryl’s AI Innovation Hub, you will play a pivotal role in building and maintaining cutting-edge web applications and services that support global AI and Agentic AI solutions. You’ll work across the entire technology stack — from designing intuitive, responsive user interfaces to developing robust backend systems and APIs — ensuring seamless integration and optimal performance.\n\nYour Future at Kyndryl\n\nThe career path ahead is full of exciting opportunities to grow and advance within the job family. With dedication and hard work, you can climb the ladder to higher bands, achieving coveted positions such as Principal Engineer or Vice President of Software. These roles not only offer the chance to inspire and innovate, but also bring with them a sense of pride and accomplishment for having reached the pinnacle of your career in the software industry.\n\nWho You Are\n\nEssential Qualifications:\n\n3 years of experience working as a software engineer on software projects\nCoding skills and development experience (Java, Python) with debugging and problem-solving skills\nSoftware development methodologies, with demonstrated experience developing scalable software (frontend)\nExperience with frameworks such as Spring, Hibernate, Angular or React\n\nPreferred Technical and Professional Experience\n\nBachelor's degree in Computer Science, related technical field, or equivalent practical experience\nCertification in one or more of the hyperscalers (Azure, AWS, and Google GCP)\nKnowledge of DevOps tools and modern engineering practices\nKnowledge of NoSQL databases\nKnowledge of architecture, microservices architecture, containers, messaging queues\n\nBeing You",
+      "label": "maybe",
+      "expectedScore": 6,
+      "expectedMatchType": "stretch",
+      "reason": "AI Agentic team explícito + Barcelona + path a Principal. PERO Java/Spring + Angular core. Mismo patrón que Allianz.",
+      "redFlags": [
+        "legacyStackCore"
+      ],
+      "greenFlags": [
+        "barcelonaHybrid",
+        "aiFirstReal",
+        "leadershipScope"
+      ],
+      "outcome": "not_applied"
+    },
+    {
+      "id": "proton-sr-fe-drive",
+      "company": "Proton",
+      "title": "Senior Front End Engineer (Drive)",
+      "location": "Office-first (Barcelona option, 70% office)",
+      "description": "About the job\nJoin Proton and build a better internet where privacy is the default\n\nAt Proton, we believe that privacy is a fundamental human right and the cornerstone of democracy. Since our inception in 2014, founded by a team of scientists from CERN, we have dedicated ourselves to providing free and open-source technology to millions worldwide, ensuring access to privacy, security, and freedom online.\n\nOur journey began with Proton Mail, the largest secure email service globally, and has since expanded to include Proton VPN, Proton Calendar, Proton Drive, and Proton Pass. These tools empower individuals and organizations to take control of their personal data, break away from Big Tech’s invasive practices, and defeat censorship. Our work impacts hundreds of millions of lives, from activists on the front lines defending freedom to leaders in governments protecting sensitive information. In some cases, Proton’s services have even been instrumental in saving lives by enabling secure and private communications in high-risk situations.\n\nProton is a profitable company that does not rely upon VC funding, supporting over 100 million user accounts with a growing team of over 500 people from over 50 different countries, from the world's top companies and universities. We value intelligence, learning potential, and ambition in our hiring process. Adaptability is key as we navigate uncharted territories and redefine how business is conducted online.\n\nHiring at Proton is highly selective, with less than 1% of candidates hired. We believe smaller teams of exceptional talent will always prevail over larger teams with lower talent density. You will have the opportunity work with many of the world's top minds in their fields, ranging from former international math and science olympiad winners to chess champions.\n\nWe have a global mindset and big ambitions but remain a start-up at heart. We value empowerment and flexibility and keep our structure flat to keep moving fast and avoid unnecessary politics. Tired of blending into the crowd? Join us and do work you can truly be proud of. Check our open-source projects here!\n\nThe Payments Team\n\nThe goal of the Payments team is to enable revenue generation for the entire Proton ecosystem. This comes in the form of introducing new payment methods for users to architecting our client libraries. This team has impact across all of Proton's products and is critical to the success of the business as a whole.\n\nThe Payments Team works to continuously expand the possibilities for users to pay with various payment methods, beyond just plain credit cards or Paypal - we aspire to create the best end to end payments experience for users globally\nThe team works in tight collaboration with the Account Team (responsible for the Proton user lifecycle), the Proton Finance team, and every single Business Unit to ensure that plans, promotions and pricing meet user expectations -- we are the most cross-functional team in the business with direct impact on the ecosystem strategy\n\nTech Stack and Tools:\n\nDifferently than many other stacks at Proton, the Payments stack depends largely on external services such as payment providers, tax-information providers, currency-conversion providers... As such it is critical, for the success of the service, to build with resilience.\nInternally our backend code is in general based on PHP/Symfony, our frontend is based on React, our mobile code is based on Kotlin (on Android) and on Swift (on iOS), with a growing shared codebase in Rust.\nAll our client-code is open-source and GPL3.\nWe are migrating our infrastructure to Kubernetes.\nEverything runs on premise in Proton's data-centers.\nTo organize our work we use classic tools such as Jira and Confluence.\n\nFuture Plans:\n\nWith payments being the backbone of any subscription business, we have ambitious plans to expand the team to cover a wide breadth of topics ranging from demystifying payment performance data across regions/products, to thinking about the holistic strategy of product catalogs, and everything in between. This particular team requires someone who is a strong generalist, who thrives with ambiguity. There's huge potential for growth no matter the domain, and the outcome for any candidate is an in-depth view into how money moves globally.\n\nWhat you will do:\n\nBuild features in all of Proton's products.\nClose interactions with products and engineers across the company.\nBuild scalable software architecture through software engineering best practices.\nOptimise user experience and design.\n\nAs a Front-end Engineer at Proton, you will play a crucial role in developing Proton's most vital services and serving over 100 million users worldwide. We expect you to be customer-centric, continuously learning, passionate about technology and usability. You are adept at turning technical complexities into seamless user experiences. Effective teamwork, collaboration with Product, Design, APIs, and your team, and data-driven decision-making are essential aspects of this role.\n\nWhat you will do:\n\nDevelop new features: Developing, deploying and supporting high-quality user experiences, including feature development and implementation.\nCollaboration: Work closely with backend, product owners, designers, QA, and other engineers to take initiatives from ideation to completion.\nCode review and optimization: Conduct code reviews and provide constructive feedback to ensure code quality, maintainability, and performance optimization.\nTesting: Develop and implement comprehensive testing strategies, including unit tests and integration tests, to ensure the reliability of core libraries.\nManagement: Break down large initiatives into smaller milestones to gather stakeholder feedback quickly, allowing us to course-correct immediately.\n\nJob Requirements:\n\nDeep understanding of JavaScript methodologies and design patterns\nProficiency with TypeScript or any typed language\nExperience with React or 2+ similar frameworks, developing performant and reusable components\nStrong understanding of software engineering best practices, such as SOLID, Design Patterns, CI/CD\nA product mindset with a focus on offering the best user experiences\nExperience working in a distributed team",
+      "label": "maybe",
+      "expectedScore": 6,
+      "expectedMatchType": "direct",
+      "reason": "Tier 1 producto, React/TS core. PERO cultura 'less than 1% hired' + LeetCode-heavy probable + 70% oficina.",
+      "redFlags": [
+        "elitistCulture",
+        "officeHeavy"
+      ],
+      "greenFlags": [],
+      "outcome": "silent_rejection_template_closer_match"
+    },
+    {
+      "id": "bitpanda-sr-react-broker",
+      "company": "Bitpanda",
+      "title": "Senior Software Engineer, React (Broker Web Platform)",
+      "location": "Remote EU",
+      "description": "Who we are \nWe simplify wealth creation. Founded in 2014 in Vienna, Austria by Eric Demuth, Paul Klanschek and Christian Trummer, we’re here to help people trust themselves enough to build their financial freedom — for now and the future. Our user-friendly, trade-everything platform empowers both first-time investors and seasoned experts to invest in the cryptocurrencies, crypto indices, stocks*, precious metals and commodities* they want — with any sized budget, 24/7. Our global team works across different cultures and time zones, bringing our products to more than 6 million customers, making us one of Europe’s safest and most secure platforms that powers modern investing.\n\nHeadquartered in Austria but operating across Europe, our products are built by fast-moving, talented, “roll-up-your-sleeves-and-make-it-happen” kind of people. It’s these diverse perspectives and innovative minds operating as ONE TEAM that keep Bitpanda at the cutting edge of our industry. So if you’re someone who thinks big, moves fast and wants to make an impact right from day one, then get ready to join our industry-changing team. Let’s go!\n\nYour Mission\n\nAs a Senior Frontend Engineer working on Bitpanda’s flagship B2C platform, you'll drive the evolution of one of Europe’s leading investing and trading experiences. You’ll architect and deliver highly-performant, secure, and scalable web surfaces that support everything from everyday investing to advanced crypto and trading features. Your decisions will shape how millions of users interact with digital assets; helping make complex financial products feel simple, fast, and trustworthy.\n\nWhat you’ll do\n\nOwn the design, development and optimisation of high-impact web applications built with React, and TypeScript.\nArchitect robust frontend systems, component libraries, and shared patterns that scale across multiple product teams.\nCollaborate deeply with product, design, and backend engineering to define technical direction and ensure seamless end-to-end execution.\nOwn performance, reliability, security and test quality across complex user flows. From trading execution to portfolio management.\n\nWho you are\n\n6+ years of professional web engineering experience, with expert-level knowledge of React, TypeScript, and modern web architecture. Bonus points for some hands on React.\nStrong experience architecting large-scale frontend systems, including SSR/ISR, caching strategies, advanced state management, and performance tuning.\nAble to translate ambiguous product and UX requirements into clear technical plans and scalable solutions.\nComfortable navigating cross-team collaboration, influencing stakeholders, and driving alignment on technical decisions.\nHands-on experience with modern frontend testing frameworks (e.g., Jest, React Testing Library), with a clear understanding of how to build reliable, scalable test suites.\n\nWhat's in it for you\nFlexibility to work where you thrive – Enjoy the freedom of our Hybrid working model, combining onsite collaboration and remote work, with an additional 25 days per year to work from a city or country of your choice.\nReward for your impact – Receive a competitive total compensation package aligned with Bitpanda’s pay-for-impact policy, including participation in our stock option plan.\nSupport for your mental wellbeing – Access confidential coaching, counselling, and mental health resources whenever you need them through OpenUP.\nTime to recharge – Take extra time off to rest, reset, and recharge, with 3 additional days off in 2026 to prioritise your wellbeing.\nContinuous learning and growth – Grow your skills and stay ahead in your career with unlimited access to Udemy’s library of online courses at your own pace.\nExclusive perks and rewards – Enjoy discounts, rewards, and perks from partners worldwide across lifestyle, wellness, tech, and travel.\nSupport during life milestones – Take advantage of our additional 8 weeks of gender-neutral new parent leave to welcome and bond with your new addition to the family.\nFuel and focus on-site – Pandas in Vienna, Bucharest, Barcelona, and Berlin can enjoy free onsite dining, with freshly prepared lunches and snacks to keep you fueled and focused all day long.\nRecognition for your contributions – Celebrate milestones and achievements with recognition and rewards for your Tenure at Bitpanda.\nShow your Bitpanda pride – Access exclusive Bitpanda-branded merchandise and gear to represent.\nConnect and celebrate with your team – Join unforgettable company events, from our Winter Party in Vienna to gatherings worldwide, fostering fun, connection, and celebration\n       .…and even more location-specific benefits designed to make life at Bitpanda even more rewarding wherever you are.",
+      "label": "maybe",
+      "expectedScore": 6,
+      "expectedMatchType": "direct",
+      "reason": "Tier 2 fintech fuerte, React Senior matchea, background crypto/KYC en EndLabs relevante. Volume filter alto.",
+      "redFlags": [
+        "cryptoHypeRisk"
+      ],
+      "greenFlags": [
+        "remoteEU"
+      ],
+      "outcome": "silent_rejection"
+    },
+    {
+      "id": "toptal-sr-fe",
+      "company": "Toptal",
+      "title": "Senior Frontend Engineer",
+      "location": "Remote",
+      "description": "Toptal is a global network of top talent in business, design, and technology that enables companies to scale their teams, on-demand. With $200+ million in annual revenue and team members based around the globe, Toptal is the world’s largest fully remote workforce.\n\nWe take the best elements of virtual teams and combine them with a support structure that encourages innovation, social interaction, and fun. We see no borders, move at a fast pace, and are never afraid to break the mold.\n\nJob Summary:\nYou’ll join a new team working on our first-class user experience on one of our new products. You can expect involvement in where and how the team moves next, and what processes the team adopts and drops. We explore various directions, often simultaneously. You can expect autonomy and freedom to lead product, technical, or cultural initiatives.\nYou will work on an internal monorepo application built with TypeScript, React, and GraphQL. Experience building reliable internal tools, writing maintainable and well-tested code, and collaborating on shared front-end patterns is important. Familiarity with component libraries, unit testing, accessibility, and performance is a plus.\nThis is a remote position. We do not offer visa sponsorship or assistance. Resumes and communication must be submitted in English.\nResponsibilities:\nThe following information is intended to describe the general nature and level of work being performed. It is not intended to be an exhaustive list of all duties, responsibilities, or required skills.\nDesign, build, and maintain outstanding, reusable, reliable, and testable TypeScript code. You will build and maintain first-class software used by numerous businesses. Review the work of your colleagues. As a great teammate, continuously improve the team’s processes, brainstorm ideas, and communicate statuses and progress. Mentor other people, provide feedback, and continuously improve yourself. Provide suggestions to our stakeholders regarding usability improvements. Proactively identify technical debt and product areas that require attention or improvements and suggest improvements in our technology stack.\nQualifications and Job Requirements:\n5+ years of front-end web development experience. Experience with Next.js, monorepo, and Progressive Web Apps is strongly preferred. React, Apollo GraphQL, TypeScript, and Jest are our front-end stack. Proficiency with them is expected. Experience with Ruby on Rails is a big plus. Experience with other non-frontend programming languages and technical stacks is welcome. Seek complex problems but also consider multiple solutions, weigh them in, and decide on the best course of action. Have a confirmed grasp of functional programming, clean code, and best testing practices. Product-minded, with a focus on solving real business problems and delivering user value. Outstanding written and verbal communication skills. Being a team player by avoiding solo performances and unblocking your peers. Caring for quality through impactful tests, process change proposals, and raising awareness of issues, be they product or technical. Caring for architecture - applying best practices, using software design patterns, and bringing ideas for improvements. Ability to work in a fast-paced, rapidly growing company and handle a wide variety of challenges, deadlines, and a diverse array of contacts. You must be a world-class individual contributor to thrive at Toptal. You will not be here just to tell other people what to do.",
+      "label": "no",
+      "expectedScore": 3,
+      "expectedMatchType": "direct",
+      "reason": "Cultura world-class IC anti-team-lead, Ruby on Rails plus, harvest behavior (postean filled positions).",
+      "redFlags": [
+        "elitistCulture",
+        "rubyCore"
+      ],
+      "greenFlags": [],
+      "outcome": "ghost_template_no_response"
+    },
+    {
+      "id": "sanoma-sr-fe",
+      "company": "Sanoma Learning",
+      "title": "Senior Frontend Developer",
+      "location": "Barcelona, Spain (Hybrid/Remote ES)",
+      "label": "no",
+      "expectedScore": 3,
+      "expectedMatchType": "reach",
+      "reason": "Angular 18+ como stack principal (no React). Senior pero requiere reaprender ecosistema. Cero AI culture.",
+      "redFlags": [
+        "legacyStackCore"
+      ],
+      "greenFlags": [
+        "barcelonaHybrid"
+      ],
+      "outcome": "not_applied"
+    },
+    {
+      "id": "factorial-founding-eng",
+      "company": "Factorial",
+      "title": "Founding Engineer (IT Management spinoff)",
+      "location": "Office-first Barcelona/Madrid (20% remote)",
+      "label": "no",
+      "expectedScore": 4,
+      "expectedMatchType": "reach",
+      "reason": "Founding Engineer + spinoff + polyglot backend-heavy + Ruby on Rails core + 80% office. Salary 60k techo.",
+      "redFlags": [
+        "startupFragileRisk",
+        "rubyCore",
+        "officeHeavy"
+      ],
+      "greenFlags": [],
+      "outcome": "applied_no_response"
+    },
+    {
+      "id": "scopely-playgami-sr",
+      "company": "Scopely (Playgami)",
+      "title": "Senior/Software Engineer (Playgami)",
+      "location": "Barcelona, Spain (Hybrid)",
+      "description": "Scopely is seeking a highly motivated Senior/Software Engineer to join our Playgami team in Barcelona on a hybrid basis!\n\nAt Scopely, we care deeply about what we do and want to encourage play every day, whether in our work environments alongside our talented colleagues or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing, and innovating the mobile games industry, connecting millions of people worldwide daily.\n\nPlaygami is building the best SaaS gaming platform ever! The team strives to build the world’s best products for game production, operation, and insights. Powering many award-winning, loved-by-millions franchise games over mobile, web, and PC.\n\nWhat You’ll Do\n\nDesign, architect, and help implement features to run world-class games at scale\nTake ownership for the quality of what the team creates, helping to establish good practices\nDeliver code and supporting documentation of the highest quality through good design, attention to detail, and system testing on a timely basis\nEnsure our systems perform, and are reliable, scalable, and secure\nWork in an agile environment where your opinions matter\nTeam up with skilled colleagues that are committed to delivering the best products possible\nShare knowledge and help colleagues both inside and outside of your team\n\nWhat We’re Looking For\n\nTeam player with good communication skills, someone who is easy to work with\nStrong computer science and engineering fundamentals (data structures, concurrency, design patterns, algorithms)\nHigh-quality and maintainable code writing\nMastery of Java, C#, or another OO language, including experience with asynchronous, multi-threaded, parallel programming paradigms\nAlways looking further to keep improving your skills\nProduct Engineering Mindset\nYou are not senior? Go for it and apply, we are seeking talented and driven engineers at all levels, from junior on up!\n\nBonus Points\n\nHands-on experience with cloud computing (AWS, GCP...)\nYou do not fear acronyms like TDD, CI, CD\nExperience with low-latency, high-volume distributed systems and Big Data computing technologies\nWeb development on a modern framework such as React or Angular\n\nAt Scopely, we create games for everyone, and want to ensure that the people behind our games reflect that! We are committed to creating a diverse, supportive work environment where everyone is treated with respect. We are committed to providing equal employment opportunities and welcome individuals from all backgrounds to join us and embrace the adventure!\n\nAbout Scopely\n\nScopely is a leading video game and global interactive entertainment company, home to many of the world’s most beloved and enduring experiences, including two of the most successful mobile games of all-time Monopoly GO! and Pokémon GO!, along with Stumble Guys, Star Trek Fleet Command, MARVEL Strike Force, WWE Champions, the Scrabble franchise, Yahtzee With Buddies, and many others. Across mobile, web, PC, and console, Scopely creates, develops, publishes, and live-operates one of the most diversified and award-winning portfolios in the games industry — bringing hundreds of millions of players together through a shared love of play.",
+      "label": "no",
+      "expectedScore": 4,
+      "expectedMatchType": "reach",
+      "reason": "Tier 1 mobile games + Barcelona, PERO stack core Java/C# multi-threading. Web framework solo en bonus points.",
+      "redFlags": [
+        "legacyStackCore"
+      ],
+      "greenFlags": [
+        "barcelonaHybrid"
+      ],
+      "outcome": "not_applied"
+    },
+    {
+      "id": "between-fullstack",
+      "company": "BETWEEN Technology",
+      "title": "Analista Programador Full Stack",
+      "location": "Granada/Barcelona/Alicante (Hybrid)",
+      "description": "En BETWEEN te ofrecemos las oportunidades que necesitas para alcanzar tus objetivos profesionales. Si quieres desarrollar tus capacidades en IT e Ingeniería, este es tu próximo destino. Damos soporte en una gran variedad de áreas como Firmware, Software, BI, Diseño, Project Management y muchas más. Además, desarrollamos soluciones tecnológicas a medida desde nuestros BETWEEN Labs.\n\nEstamos buscando un Fullstack Developer con cierta experiencia, para ampliar uno de nuestros equipos en Barcelona.\n\nParticiparás en un entorno Scrum y trabajarás en soluciones que combinan React, Java, NodeJS y arquitecturas modernas basadas en microservicios y event-driven.\n\nQué harás en tu día a día\n\nInteractuar con el Product Owner y el equipo para comprender necesidades y asegurar que el producto cumple la solución prevista.\nProponer e implementar soluciones técnicas alineadas con los requerimientos funcionales.\nAsegurar el cumplimiento de atributos no funcionales (rendimiento, seguridad, usabilidad).\nGarantizar la calidad del software aplicando buenas prácticas y minimizando defectos.\nImplementar pruebas automáticas (unitarias, integración, servicio, e2e).\nRedactar documentación técnica y funcional.\nColaborar y aportar sugerencias para mejorar la eficiencia del equipo.\n\nBeneficios\n\nSeguro médico con Alan.\nOportunidades de formación: idiomas, certificaciones, bootcamps y mucho más.\nMultitud de eventos: BETWEEN Night, torneo de pádel y mucho más.\nRetribución flexible (restaurante, transporte, guardería).\nIncentivos por validar o recomendar talento.\n\nRequisitos\n\n+7 años de experiencia en microservicios, arquitecturas event-driven y desarrollo de aplicaciones web.\nConocimientos avanzados en Java (Spring Boot) y NodeJS (Express, Mongoose).\nDominio de HTML5, CSS3 y maquetación responsive.\nExperiencia sólida con React y TypeScript, incluyendo contextos, Apollo y GraphQL.\nExperiencia con PostgreSQL, MongoDB y optimización de bases de datos.\nPráctica en testing automático (unitario, integración, servicio, e2e), Clean Code y patrones de diseño.\nConocimientos de GitHub Copilot para el desarrollo de software.\nSoft skills: proactividad, pensamiento analítico, trabajo en equipo, autonomía, atención al detalle y ganas de aprender.",
+      "label": "no",
+      "expectedScore": 3,
+      "expectedMatchType": "reach",
+      "reason": "Body-shop staffing español + 'Analista Programador' rol ejecutor + SpringBoot/Java backend-heavy + grado en informática imprescindible.",
+      "redFlags": [
+        "anonymousSpanishStaffing",
+        "legacyStackCore"
+      ],
+      "greenFlags": [],
+      "outcome": "not_applied"
+    },
+    {
+      "id": "footprint-mappa-agentic",
+      "company": "Footprint MAPPA",
+      "title": "Agentic-Driven Software Developer Engineer",
+      "location": "Barcelona, Spain",
+      "description": "La industria lleva décadas generando datos. Todavía no sabe qué hacer con ellos para la sostenibilidad.\n\nCada empresa industrial tiene facturas energéticas, listas de materiales, datos de proveedor, registros de proceso. Todo está ahí. Pero cuando llega una auditoría, un cliente grande o una licitación pública, el equipo empieza de cero otra vez.\n\nMappa resuelve eso. Somos el Sistema Operativo de Sostenibilidad para la Industria: convertimos esos datos dispersos en una gestión medioambiental 360 auditable, repetible y conectada al negocio. No un informe anual. Un sistema que el año que viene funciona solo.\n\nEl puesto\n\nFormarás parte de un proyecto líder en IA aplicada, reconocido y cofinanciado por la Unión Europea a través del Programa FSE+ / STEP (Plataforma de Tecnologías Estratégicas para Europa).\n\nTu trabajo no es hacer demostraciones. Es construir los modelos que hacen que el sistema central de Mappa sea más preciso, más automatizado y más resistente a la realidad de los datos industriales.\n\nQué construirás\n\nModelos de extracción, clasificación y validación de datos industriales heterogéneos (BOM, facturas energéticas, fichas de proveedor, registros de proceso).\nPipelines que convierten fuentes dispersas en inputs estructurados y trazables, listos para generar huellas de carbono por producto bajo normativas ISO.\nSistemas de sugerencia y pre-relleno que reducen el trabajo manual del equipo y del cliente en el proceso de construcción de la huella.\nIntegraciones directas con el producto central de Mappa: lo que desarrollas entra en producción, no en un repositorio de investigación.\nY mucho más, cosas que a día de hoy ni tan solo nos estamos imaginando. ¡Construyamos juntos!\n\nA quién buscamos\n\nIngeniero o ingeniera en Informática o en cualquier ingeniería con experiencia demostrada en IA aplicada con menos de 30 años por una restricción externa por subvención. No buscamos un perfil académico puro ni un desarrollador generalista. Buscamos a alguien que haya construido cosas reales con datos reales.\n\nConcretamente:\n\nDominio de TypeScript y experiencia trabajando sobre Next.js / React en producción. Sabes moverte en el frontend cuando toca, pero te sientes en casa diseñando la lógica que hay detrás.\nExperiencia práctica con LLMs aplicados a datos estructurados o semiestructurados: extracción, clasificación, razonamiento sobre documentos, prompts que funcionan en producción y no solo en la demo.\nSoltura con Postgres / Supabase o similares: modelar bien los datos, escribir queries que no se caigan en el primer escalado, y entender que la base de datos es parte del producto.\nMetodología de desarrollo agéntica. Trabajamos día a día con Claude Code, Cursor como compañeros de equipo, no como autocompletado glorificado. Buscamos a alguien que sepa delegar bien, revisar mejor, escribir contexto útil para los agentes y mantener el criterio técnico cuando el agente se equivoca. Si todavía escribes cada línea a mano por desconfianza, este no es el sitio. Si ya tirando agentes a fondo, hablamos.\nCapacidad de trabajar con datos sucios, incompletos y contradictorios. Aquí no hay datasets de Kaggle, datos de clientes 100% reales.\nMentalidad de producto: te importa que el modelo funcione en producción, no solo que el paper quede bien.\nInterés genuino por la intersección entre IA, industria y sostenibilidad operacional. No hace falta que seas experto en huella de carbono. Hace falta que quieras entenderlo y te apasione aportar tu granito de arena.\n\nLo que ofrecemos\n\nContrato indefinido. Jornada completa. Barcelona, formato híbrido.\n25.000 EUR brutos anuales de salida. Somos una startup en fase de crecimiento: el salario inicial refleja el momento, no el techo. A medida que el producto escala, el equipo escala con él. Las personas que entran ahora son las que lideran después.\nInvestigación con reconocimiento europeo en tu CV. Este proyecto está clasificado dentro del Programa STEP de la UE como tecnología estratégica para Europa. No es un título honorífico: es credencial real, con expediente, con financiación pública y con rigor científico.\nOwnership técnico desde el día uno. Somos un equipo pequeño. Eso significa que no hay seis capas entre tu código y el cliente. Significa que tus decisiones de arquitectura importan. Significa que en dos años habrás construido más, decidido más y aprendido más que en cinco años en una empresa grande.\nAcceso directo a los fundadores y al problema completo. No entras a resolver un ticket. Entras a entender el negocio, el producto y el mercado desde dentro. Ese contexto es lo que separa a un buen ingeniero de alguien que sabe construir sistemas que resuelven problemas reales.\nUn mercado que no para de crecer. La sostenibilidad industrial ya no es opcional: la regulación europea, los requisitos de cliente y las licitaciones públicas están convirtiendo lo que hacemos en infraestructura crítica para la industria. Entrar ahora es entrar antes de que todo el mundo quiera estar aquí.",
+      "label": "no",
+      "expectedScore": 4,
+      "expectedMatchType": "direct",
+      "reason": "Title matchea (Agentic+SWE) + Barcelona, PERO co-founder posteando directo = startup chica <50 personas no conocida.",
+      "redFlags": [
+        "startupSmall",
+        "startupFragileRisk",
+        "aiHypeRisk"
+      ],
+      "greenFlags": [],
+      "outcome": "applied_viewed_silent"
+    },
+    {
+      "id": "red-global-fe",
+      "company": "RED Global",
+      "title": "Frontend Developer",
+      "location": "Germany (no remote explicit)",
+      "label": "no",
+      "expectedScore": 3,
+      "expectedMatchType": "reach",
+      "reason": "Staffing UK/DE + no Senior título + location Germany sin remote ES + SAP-heavy stack probable.",
+      "redFlags": [
+        "locationMismatch"
+      ],
+      "greenFlags": [],
+      "outcome": "applied_no_response"
+    },
+    {
+      "id": "krell-tl-react",
+      "company": "Krell",
+      "title": "Technical Lead React",
+      "location": "Barcelona, Spain",
+      "label": "maybe",
+      "expectedScore": 5,
+      "expectedMatchType": "direct",
+      "reason": "Tech Lead React + Barcelona = scope senior. Krell sin name recognition = probable tier 3 consultora chica.",
+      "redFlags": [
+        "startupFragileRisk"
+      ],
+      "greenFlags": [
+        "leadershipScope"
+      ],
+      "outcome": "applied_template_rejection"
+    },
+    {
+      "id": "slashmobility-sr-fe",
+      "company": "SlashMobility",
+      "title": "Senior Frontend (Next.js)",
+      "location": "Barcelona, Spain",
+      "label": "no",
+      "expectedScore": 5,
+      "expectedMatchType": "direct",
+      "reason": "Stack matchea Next.js, PERO consultora mediana española tier 2-3 nacional, probable banda salarial 40-50k.",
+      "redFlags": [
+        "salaryBelowFloor"
+      ],
+      "greenFlags": [],
+      "outcome": "applied_template_rejection"
+    },
+    {
+      "id": "agap2-aero-fe",
+      "company": "Agap2 (aeronautical project)",
+      "title": "Senior Frontend Developer",
+      "location": "Barcelona, Spain (Hybrid)",
+      "label": "yes",
+      "expectedScore": 7,
+      "expectedMatchType": "direct",
+      "reason": "Mismo perfil que el otro Agap2 - consultora grande conocida + stack matchea + sector aeronáutico estable.",
+      "redFlags": [],
+      "greenFlags": [
+        "barcelonaHybrid",
+        "knownConsultancy"
+      ],
+      "outcome": "recruiter_reached_out"
+    },
+    {
+      "id": "remobi-contractor",
+      "company": "Remobi",
+      "title": "(Pool of contractors)",
+      "location": "Remote",
+      "label": "no",
+      "expectedScore": 3,
+      "expectedMatchType": "skip",
+      "reason": "Plataforma de contractors UK, modelo body-shop premium. G no quiere volver a contractor work.",
+      "redFlags": [
+        "contractorPool"
+      ],
+      "greenFlags": [],
+      "outcome": "contacted_g_said_no"
+    },
+    {
+      "id": "laia-aleu-fe",
+      "company": "Unknown (recruiter Laia Aleu)",
+      "title": "Front End Engineer",
+      "location": "Unknown",
+      "label": "yes",
+      "expectedScore": 7,
+      "expectedMatchType": "direct",
+      "reason": "Sin info de company. Rejection era 'role has now been filled' - timing issue, NO mismatch tuyo.",
+      "redFlags": [],
+      "greenFlags": [],
+      "outcome": "applied_role_filled_before_review"
+    },
+    {
+      "id": "factorial-design-system",
+      "company": "Factorial",
+      "title": "Design System Engineer",
+      "location": "Office-first Barcelona/Madrid (20% remote)",
+      "description": "Hello! 👋\n\nDo you want to help us redefine how AI powers the future of Business Management software, not as an add-on, but as a core part of how people work, decide and grow?\n\nWe’re looking for engineers who:\n\nTreat AI as central to their craft\nAre obsessed with building and shipping fast\nCare about real impact, not hierarchy or titles\n\nIf that sounds like you, keep reading.\n\nThe Role\n\nDesign System Architect:\n\nThis is for a systems thinker with technical firepower, a builder’s mindset, and a strong design eye.\n\nYou’ll own the architecture of our company-wide design system — evolving it from a set of components to a real product infrastructure that fuels consistency, quality, and speed across every team.\n\nThink: building the rails for AI-powered design to dev workflows, creating seamless tooling from Figma to code, and setting the bar for how we scale quality across the product.\n\nFactorial is scaling fast — and this role is about laying the foundations for design and engineering to move at 10x speed with 10x consistency. You’ll have massive ownership, shape how we build product across the org, and leave a legacy in how we approach design quality at scale.\n\nYou won’t just be contributing to a system.\n\nYou’ll be engineering the product underneath the product.\n\nWhat You’ll Do\n\nAs a Design System Engineer at Factorial, you’ll help define and build the next generation of our AI-native product using modern AI development practices.\n\nYou will:\n\nLead and scale our design system across the company\nDefine the technical architecture, tooling, documentation, governance, and implementation plan. Help us rethink how design systems operate in an AI-native product development flow\nDesign and implement AI Skills\nBuild tools and plugins that connect Figma to code to AI-driven workflows\nDevelop and maintain evaluation frameworks (Evals)\nPartner with design, frontend, and product to ensure pixel-perfect execution at scale. Drive best practices around accessibility, responsiveness, and usability\n\nStay close to our customers\n\nWe have a strong customer-centric mindset: engineers regularly join customer calls, reviews, and feedback sessions to deeply understand real workflows, pain points, and constraints — ensuring we build the right solutions to real problems, not assumptions.\n\nShare knowledge and raise the bar\n\nMentor peers, document learnings, and contribute to Factorial’s AI engineering best practices.\n\nWhat we’re looking for\n\nYour title matters less than your mindset.\n\nYou might be mid, senior, or staff, what we care about is:\n\nAI as a habit: you’ve built real AI-powered systems or workflows, not just experiments\nProven impact: shipped projects, side projects, or contributions that made a measurable difference\nProduct-first thinking: you design complete experiences, not just isolated components\nSpeed and adaptability: you experiment, learn, and iterate fast\n\nBonus points if you’ve worked with:\n\nLLMs, skill-based agents, MCP, or other AI protocols\n\nTechnical Foundation\n\nStrong candidates often have:\n\nDeep experience with React, TypeScript, and the modern frontend ecosystem\nStrong understanding of Figma, tokens, and component libraries\nExperience translating early concepts into production-grade design systems\nProduct sense: you don’t just code components, you understand why they exist\nBuilder mindset: you ship fast, clean, and don’t wait for perfect specs\n\nBonus if:\n\nYou’ve built or contributed to internal tooling, plugins, or Figma-to-code pipelines\nYou’ve explored ways to use AI to automate or accelerate parts of the design to dev flow\nYou see design systems as a strategic layer, not just a UI toolkit\n\nHow We Work\n\nOffice-first in Barcelona and Madrid, with 20% remote flexibility\nA people-first, high-trust culture built on radical candor and ownership\nA multicultural team building the next generation of business management software\n\nAbout Us\n\nAt Factorial, we’re building the leading business management software for companies of all sizes. Our platform centralizes key workflows across HR, finance, and operations, freeing teams from manual processes so they can focus on what really matters: leading, growing, and taking care of their people. With over 1,200 employees across 7 markets, we serve 700,000+ users and are one of Europe’s fastest-growing SaaS companies, backed by top-tier investors and proudly headquartered in Barcelona. We believe in bold goals, radical ownership, and inclusive collaboration. If you're excited to shape the future of business management technology, we’d love to meet you.\n\nOur Values\n\nWe own it: We take responsibility for every project. We make decisions, not excuses.\nWe learn and teach: We're dedicated to learning something new every day and, above all, share it.\nWe partner: Every decision is a team decision. We trust each other.\nWe grow fast: We act fast. We think that the worst mistake is not learning from them.\nWe believe in diverse talent: We welcome applicants from all backgrounds and strongly encourage people of diverse experiences and identities to apply.\nWe believe in inclusion: We are committed to equal opportunities and actively promote workplace inclusion of people with disabilities.\n\nPerks of being part of our team\n\nWe care about people and we also offer a lot of benefits for employees:\n\nHigh growth, multicultural and friendly environment\nAlan as private health insurance\nHealthy life with Wellhub (Gyms, pools, outdoor classes)\nSave expenses with Cobee\nLanguage classes\nBreakfast in the office and organic fruit\nNora discounts\nFree caffeine and theine\nPet Friendly\n\nThe hiring process\n\nIf you apply, here’s what to expect:\n\nA first conversation with our Talent Acquisition Partner. It will be about comparing our expectations and making sure we match on a human level. We will also check our Engineering Rubrics and the salary in your position.\nA second conversation with the team’s Engineering Manager. This is about making sure we can work together. Here you will have a conversation about the team, their needs, your profile and how can you complement it. Expect to have a mix of a human and technical conversation.\nA Live Engineering Challenge with two Factorial engineers: At Factorial, we’re passionate about hiring engineers who can think clearly, communicate well, leverage the best tools, and learn very fast. In this challenge, we’re not looking for a finished product, but for how you structure problems, ask questions, use technology, and reason about solutions.\nOne last coffee-chat with our CTO, where you can get all the answers about Factorial’s culture, business vision, or anything else that interests you.\nAnd that’s it! Feel free to request any other conversation you want, with team members or to address specific concerns at any time during the process.\n\nThe whole process is remote, using videoconferencing tools!",
+      "label": "yes",
+      "expectedScore": 8,
+      "expectedMatchType": "direct",
+      "reason": "Design System Engineer es literal su sweet spot. AI-first cultura Factorial. PERO 80% office.",
+      "redFlags": [
+        "officeHeavy"
+      ],
+      "greenFlags": [
+        "aiFirstReal",
+        "designSystems"
+      ],
+      "outcome": "applied_no_response_in_5_days"
+    },
+    {
+      "id": "marfeel-fe-eng-v2",
+      "company": "Marfeel (variant)",
+      "title": "Frontend Engineer",
+      "location": "Barcelona, Spain (Hybrid/Remote)",
+      "label": "yes",
+      "expectedScore": 9,
+      "expectedMatchType": "direct",
+      "reason": "Stack matchea + AI tools workflow + Barcelona. Tu charla de conferencia es literal este JD. Aplicar.",
+      "redFlags": [],
+      "greenFlags": [
+        "barcelonaHybrid",
+        "aiFirstReal",
+        "stackMatchReactTSNode",
+        "designSystems"
+      ],
+      "outcome": "advanced_then_mutual_no_fit"
+    },
+    {
+      "id": "huspy-sr-fe-platform",
+      "company": "Huspy",
+      "title": "Senior Frontend Engineer / Software Engineer",
+      "location": "Remote EU or Hybrid Dubai/Madrid",
+      "description": "The Story So Far: We’re Building a Global Brand in Real Estate\n\nHuspy is one of the leading property technology companies in EMEA.\n\nLaunched in 2020, we now operate in multiple cities across the UAE and Spain, expanding into Saudi Arabia and 3 more European markets by 2026. Today, we own the largest portion of the UAE mortgage market and are one of the fastest-growing players in every European city we’ve entered.\n\nWe’ve raised over $140 million (Series A and Series B) from the world’s top investors, including Sequoia Capital and Balderton Capital, to reshape the homebuying journey through powerful technology and agent-first tools.\n\nWe’ve built a SuperApp that empowers real estate agents and mortgage brokers, bringing cutting-edge technology to one of the world’s most traditional industries. We’re transforming how property transactions happen — faster, smarter, and better for everyone.\n\nWe’re not slowing down. The question is: will you be part of what’s next?\n\nThe Main Event: What You’ll Drive, Build, and Own\n\nYou will be working closely with product leaders and designers in teams responsible for the development of our Real Estate Agent Platform and Mortgage Broker Portal using modern, state of the art technologies in an innovative and collaborative environtment.\n\nTech stack: Javascript, React, Typescript, Next.js\n\nHands-On Engineering: Contribute to the team’s codebase and take ownership of key technical deliverables while leading by example in software development practices.\nEngineering Excellence: Drive best practices in software development, ensuring high standards of code quality and product architecture. Actively participate in technical challenges and lead the implementation of scalable, maintainable solutions.\nStakeholder Collaboration: Work closely with Product, Design, and Data teams to ensure clear communication and alignment on product goals and deliverables.\n\nThe Perfect Match: What It Takes to Succeed at Huspy\n\nSenior Engineering Experience: Strong technical background with a passion for building high-quality products and solving complex technical challenges.\nProduct-Focused Mindset: Ability to work cross-functionally and collaborate with Product, Design, and Data teams to deliver impactful, client-focused products.\nTechnical Expertise: Experience with modern development practices, CI/CD, and cloud technologies (AWS preferred).\nCollaborative Attitude: Excellent communication skills with the ability to foster an inclusive, engaging team environment.\n\nWork Setup: Hybrid in Dubai or Madrid, remote anywhere in the EU. Or we offer relocation support to Dubai or Madrid, if preferred.\n\nBy submitting this application, I agree that my personal data will be collected, processed, and retained by the company solely for the purposes of managing and assessing my candidacy.",
+      "label": "maybe",
+      "expectedScore": 7,
+      "expectedMatchType": "direct",
+      "reason": "React/TS/Next + product/design collaboration + strong funding/backers + remote EU, but proptech/real estate needs G review.",
+      "redFlags": [],
+      "greenFlags": [
+        "remoteEU",
+        "startupSolidSignals",
+        "stackMatchReactTSNode",
+        "leadershipScope"
+      ],
+      "outcome": "new_candidate_from_search"
+    },
+    {
+      "id": "fx-digital-sr-swe-connected-tv",
+      "company": "FX Digital",
+      "title": "Senior Software Engineer",
+      "location": "Barcelona, Spain (Hybrid, 3 days office)",
+      "description": "About the job\nRole\n\nAbout FX Digital\n\nFX Digital is a specialist Connected TV agency, providing a wide range of services, including Product Strategy, Design, Engineering, and Test Automation. We partner with global streaming brands such as Discovery+, BritBox, ATP Media, ITV, and Dyn.\nAs a Senior Software Engineer at FX Digital, you take a leading role in shaping the technical direction of our Connected TV and living room experiences.\nWith your extensive experience in application development and web technologies, you will lead technical solutions, mentor team members, and deliver engaging user experiences for large screen devices.\n\nKey Responsibilities\n\nEngineer and develop responsive, fluid, and data driven user experiences for mobile and large screen devices\nLead technical solutions for Connected TV, mobile and interactivity across smart devices\nContribute to product development initiatives that reach hundreds of thousands of users\nCollaborate with product, design, and QA to understand customer needs and structure work for efficient delivery\nProvide technical guidance and inspire the development team to deliver optimised, reliable, and maintainable code\nMentor team members, supporting them to improve their craft and grow their impact\nImplement tools and processes that support the team’s continuous delivery of value to users\nProvide technical insight in customer meetings, presenting solutions and advising on architectural decisions\nCollaborate with sales and marketing teams to present technical solutions to prospective clients\nStay current with industry developments by attending relevant events and training to maintain cutting-edge skills\n\nRequirements\n\n5+ years of professional experience in front-end or full-stack application engineering / development\nExpert knowledge of TypeScript and the Javascript eco-system\nExtensive experience integrating with RESTful APIs, unit testing frameworks, and debugging tools\nSolid grasp of web architecture, including APIs, transfer protocols, and browser internals\nProficiency with CLI tools (e.g., yarn, npm) and some familiarity with CI/CD pipelines\nStrong leadership, time-management, and communication skills\n\nDesirable Skills\n\nPassion for efficient code, performance optimisation, and pushing limits of constrained devices\nExperience with video/audio player playback (e.g., hls.js), video delivery protocols, DRM\nExperience with WebGL, RxJS, and stream-based programming\nExperience in one or more native and cross-platform development environments Android/Google TV/Kotlin, or iOS/tvOS, React Native\nBachelor’s degree in Computer Science, Mathematics, or a related field (or equivalent experience)\n\nWhy work at FX?\n\nTo recognise everyone’s incredible contribution to the success of the business, we offer an annual profit share\nPersonal development is hugely important, so we invest time for you to up-skill, learn and grow\nPersonal pension with salary sacrifice, and medical insurance\nEarly finish Fridays in the summer\nFlexible working - with the option to work 2 days a week from home\nWe appreciate that the world has changed and so we also offer a flexi start time between 8am and 10am\nTo ensure that our remote workers don’t miss out on the office experience, we have invested in technology that allows us to run company events in a hybrid way\nEvery month you have the option of a one-on-one Sanctus mental health coaching session, a great opportunity to get quality mental health support at work\nTake part in regular company-wide and team-specific socials (both in-person and remote)\nWe take great pride in our culture of acceptance, diversity and inclusion\nComplete regular surveys to provide anonymous feedback on the business, leadership team and your role to ensure that we are doing everything we can to keep improving and making FX a great place to work\nJoin us at our monthly Show and Tell, where team members update us on what they’ve been working on\nGet nominated for the monthly FX Factor by your peers and get recognised for your contribution to the business\nWe are invested in your growth and so we run regular, quarterly appraisals, to ensure you are receiving constant feedback and working towards goals for growth\nWe support our team to get involved in conferences, events and trade shows at home and abroad\nWork with epic and prestigious global brands in the media, sport and entertainment space, from Discovery to BBC and ATP Media\n\nIf you’re passionate about this role and believe you can add value, we encourage you to apply, even if your background doesn’t match the job description exactly.\n\nThis is a full-time role based out of our office in Poblenou, Barcelona. We can only consider applicants who are able to work 3 days per week from the office.",
+      "label": "maybe",
+      "expectedScore": 6,
+      "expectedMatchType": "stretch",
+      "reason": "Senior frontend/fullstack TS leadership with strong media brands, but Connected TV/native device specialization and 3 office days need review.",
+      "redFlags": [],
+      "greenFlags": [
+        "barcelonaHybrid",
+        "leadershipScope"
+      ],
+      "outcome": "new_candidate_from_search"
+    },
+    {
+      "id": "zurich-sr-ai-agentic-workflows",
+      "company": "Zurich Technology Delivery Center",
+      "title": "Senior AI Engineer - Agentic Workflows",
+      "location": "Barcelona, Spain (Flexible hybrid)",
+      "description": "We Are Waiting for You\n\nHi there!\n\nI am Alvaro Gallego, the recruiter for this position. Nice to meet you!\n\nFirst, a little bit about what I like the most about working at Zurich Technology Delivery Center: The environment here is incredibly collaborative and innovative. Our tech-driven mindset fosters continuous learning and growth, creating an atmosphere where everyone can thrive. Now, I can't wait to share this exciting journey with you at Zurich!\n\nFirst of all, thank you for considering our company. We understand that finding the right opportunity can be tough, but I’ll try to make it easier.\n\nWho Are We?\n\nLet me introduce us. You’re reading about Zurich Insurance Group, a global leader in insurance, but this role specifically pertains to our Technology Delivery Center (TDC). Established in Barcelona in 2006, the TDC operates as an integral part of Zurich Insurance Group, providing cutting-edge technological solutions and support to Zurich's local and global business units.\n\nIn essence, Zurich TDC is where technology meets the vast reach of a multinational company. We specialize in areas such as software development, data analytics, cybersecurity, and IT infrastructure. Our primary mission is to support Zurich's strategic goals and enhance operational efficiency through innovative technology solutions.\n\nIf you're considering a role with us, know that you'll be joining a hub of technological excellence dedicated to driving Zurich's success on a global scale.\n\nWhat Can You Expect?\n\nAs a Senior AI Engineer – Agentic Workflows you will have the opportunity to:\n\nDesign Agentic Workflows and Problem Decomposition: Architect end-to-end workflows using LangGraph (or similar), breaking complex problems into composable steps, states, and policies. Translate high-level business problems into structured agentic solutions, defining workflows, components, and trade-offs across multiple design options.\nBuild Skills, Tools, and Agents: Implement reusable skills, tools, and agents, and compose them into workflows that are maintainable and testable. Demonstrate strong judgement on when to build a skill vs. a tool vs. an agent vs. a workflow, based on problem decomposition, system design trade-offs, and long-term maintainability, balancing accuracy, complexity, observability, and long-term reuse.\nModel Strategy, Integration and Performance Optimization: Integrate and operate multiple LLM providers, optimising for latency, cost, and output quality. Optimize prompt engineering, token usage, chunking strategies, and inference efficiency across the platform. Design typed schemas (e.g., Pydantic models) for reliable data flows, tool contracts, and structured outputs.\nEvaluations, Quality and Observability: Define and implement evaluation strategies (offline and online), datasets, metrics, and guardrails to validate agent behaviour and measure regression over time. Implement logging, tracing, and monitoring for agentic systems using tools like Langfuse or LangSmith.\nCross-functional Collaboration: Partner with data scientists, engineers, and product teams to translate requirements into robust agentic capabilities and deliver measurable value. Support colleagues and junior engineers through mentorship, code review, and technical guidance. Guide the team in building robust evaluation practices and establishing strong quality standards. Use AI assistants (including Claude Code) in day-to-day work for prototyping, refactoring, testing, and documentation while applying strong engineering judgement.\n\nWhat Makes You a great Fit?\n\n5+ years Python development with strong software engineering fundamentals\nHands-on experience building production systems with Large Language Models\nHigh ownership and proactive communication: Delivers assigned outcomes autonomously, keeping progress visible and proactively surfacing blockers, changes in approach, and trade-offs\nProven experience with LangGraph or similar agentic frameworks (LangChain, other orchestration frameworks acceptable)\nStrong understanding of evaluation methodologies for LLM/agent quality (datasets, metrics, human review, regression testing)\nProven ability to decompose complex, ambiguous business problems into scalable technical solutions, from high-level requirements to detailed design\n\nNice to Have\n\nExperience with agent-building frameworks and tools (e.g., AutoGen, Deep Agents)\nComfort using AI assistants (e.g., Claude Code) as part of the daily engineering workflow\nFamiliarity with LLM observability tools (Langfuse, LangSmith, etc.)\nBackground with vector databases and RAG patterns\nExperience with knowledge graphs and semantic data structures\nUnderstanding of cost optimisation and token accounting in LLM systems\nProduction experience with async Python patterns (asyncio, concurrent request handling)\nExperience with Azure deployment and cloud-native architectures\nKnowledge of evaluation frameworks and metrics for AI output quality\n\nAnd what makes us special?\n\nAs well as a competitive salary and a yearly bonus, we offer:\n\nTo support your work-life balance, we have adopted a flexible working model.\nOption to work abroad up to 25 days yearly.\nOver 300 euros to set up your home office and additional monthly home office allowance.\nWide range of internal and external trainings, including English, German and Spanish classes depending on the needs.\nTicket restaurant and Health Insurance with the flexibility to exchange it for other benefits.\nLife and accident insurance.\nCollective Life retirement Plan\n2000 referral bonus if you bring other talented people like you to the company.\nSpecial banking and insurance conditions plus exclusive employee discounts\nFunctional diversity benefits\nStock options and mortgage benefits.\n\nWhere Are We Located?\n\nBarcelona, Poblenou.\n\nLocation(s): ES - Barcelona\nSchedule: Full Time\nRecruiter name: Alvaro Gallego Zazo",
+      "label": "maybe",
+      "expectedScore": 6,
+      "expectedMatchType": "stretch",
+      "reason": "AI agentic/evals role is strongly aligned with G's hidden strengths, but Python/backend core makes it a real stretch.",
+      "redFlags": [
+        "legacyStackCore"
+      ],
+      "greenFlags": [
+        "barcelonaHybrid",
+        "aiFirstReal",
+        "leadershipScope"
+      ],
+      "outcome": "new_candidate_from_search"
+    },
+    {
+      "id": "happyrobot-forward-deployed-france",
+      "company": "HappyRobot",
+      "title": "Forward Deployed Engineer (Founding France Team Member)",
+      "location": "France",
+      "description": "About HappyRobot\n\nHappyRobot is the infrastructure for enterprises to build and orchestrate AI workforces. Our AI workers don't just communicate - they make decisions, take action, and run operations autonomously across voice, email, and enterprise systems. Born in Y Combinator (S23) and backed by a16z and Base10 with over $60M raised, we power critical operations for global enterprises worldwide.\n\nOur platform is battle-tested in the most demanding environments - where AI has real consequences. We started in logistics, built our own voice stack, models, and orchestration layer from the ground up, and are now bringing that infrastructure to every enterprise that runs the real economy.\n\nRole Overview\n\nWe’re looking for a Forward Deployed Engineer (Founding France Team Member).\n\nWe are looking for a versatile and highly skilled Forward Deployed Engineer to join our team. In this role, you will combine strong technical abilities with excellent communication skills, working directly with customers to ensure they maximize the value of HappyRobot’s AI platform. You will be involved in onboarding, implementation, and ongoing support, while also contributing to product development and innovation.\n\nAt HappyRobot, there’s no role seniority or hierarchy — we operate as a team of builders. We execute, we build, we own, and we care deeply about our customers and their success.\n\nWhat You’ll Do\n\nCustomer-Facing Engineering – Work closely with customers from onboarding to ongoing usage, helping them integrate and optimize our AI solutions.\nTechnical Development – Build new features, MVPs, and scalable solutions that directly impact customer outcomes.\nFull-Stack Development – Utilize React, TypeScript, Node.js, and Python to develop robust applications and tools.\nAI/ML Applications – Design, implement, and iterate on AI/ML solutions, including LLM prompting, tuning of voices, and transcribers to optimize use cases.\nIntegration and APIs – Manage APIs and integrations with third-party systems to ensure seamless functionality for customers.\nCross-Functional Collaboration – Partner with Product, Engineering, and Customer Success teams to deliver tailored solutions.\nIterative Problem-Solving – Continuously iterate and improve AI solutions based on customer feedback and evolving requirements.\nProject Management – Prioritize and manage multiple projects under tight deadlines while maintaining high-quality results.\n\nMust Have\n\nStrong full-stack experience: React, TypeScript, Node.js.\nHands-on proficiency in Python.\nExperience building AI/ML applications, including LLM prompting and tuning.\nAbility to manage APIs and integrate with third-party systems.\nExcellent communication skills with the ability to explain technical concepts to non-technical stakeholders.\nProven ability to prioritize and manage multiple projects under tight deadlines.\nFounder mindset: highly independent, takes ownership, and thrives in a fast-paced environment.",
+      "label": "maybe",
+      "expectedScore": 5,
+      "expectedMatchType": "stretch",
+      "reason": "AI/fullstack/funding are strong, but France/founding forward-deployed/customer-facing role is high-friction and G does not speak French.",
+      "redFlags": [
+        "locationMismatch",
+        "startupFragileRisk",
+        "languageMismatch"
+      ],
+      "greenFlags": [
+        "aiFirstReal",
+        "startupSolidSignals",
+        "stackMatchReactTSNode"
+      ],
+      "outcome": "new_candidate_from_search"
+    },
+    {
+      "id": "italki-fe-react",
+      "company": "italki",
+      "title": "Frontend Developer / Frontend Engineer",
+      "location": "Unknown",
+      "description": "Responsibilities\n\nParticipate in italki global business line product development, including italki community, italki platform and other products\nFully understand the demand characteristics of global products, learn and implement advanced front-end technologies\nComplete the implementation of front-end functions with high quality according to requirements and design\nWork closely with the back-end technical team to continuously improve the front-end functions of current products, optimize performance, and improve access experience\n\nRequirements\n\nBachelor’s Degree in Computer Science or Engineering related.\nMore than 5 years of development experience, more than 2 years of React development experience, and participated in successful front-end projects\nProficient in web development technologies, JavaScript (including ES6), HTML, CSS, DOM, Hook, etc.\nProficient in React, familiar with common front-end building tools (Webpack, etc.)\nGood at web and mobile web performance optimization, solving multi-browser compatibility issues, good accessibility and certain experience\nUnderstand the front-end security mechanism, be familiar with the HTTP protocol and browser caching strategies\nPay attention to front-end cutting-edge technology, love programming, have good coding habits, and be able to produce high-quality code and code architecture\nHave strong learning, communication and teamwork skills",
+      "label": "maybe",
+      "expectedScore": 5,
+      "expectedMatchType": "direct",
+      "reason": "React frontend match, but JD reads implementation-heavy with unclear location, seniority, company tier, and ownership.",
+      "redFlags": [],
+      "greenFlags": [],
+      "outcome": "historical_job_from_one_month_ago"
+    },
+    {
+      "id": "fotocasa-web-engineer",
+      "company": "Fotocasa Group",
+      "title": "Web Engineer",
+      "location": "Barcelona or Madrid, Spain (Hybrid, 2 days office)",
+      "description": "Join the Fotocasa Group Tech Team as a Web Engineer!\n\nWe are Fotocasa Group, Spain’s real estate tech leaders.\nNow part of the Scout24 Group, we are stronger than ever. We are combining our local market expertise with the power of a leading European digital ecosystem. Our mission: to connect people and homes through intelligent tools and the best market offerings.\nWe are currently redesigning our processes and culture to lead the market. If you’re a status-quo-challenger who thrives on innovation and matchmaking, we want you on board for this journey!\n\nWe are looking for a talented and motivated Web Engineer to join our team. The ideal candidate should have a solid understanding of JavaScript, React, and CSS, as well as experience in developing dynamic and responsive web applications.\nYou will be part of a multidisciplinary team, working closely with designers, backend engineers, and product managers to create and improve our applications.\n\nSome of the things we expect you to do with us include:\n\nDevelop and maintain new features using JavaScript, React, and CSS with Tailwind.\nImplement solutions within our domain using Domain-Driven Design (DDD).\nWrite clean, maintainable, and efficient code.\nParticipate in code reviews and collaborate in the continuous improvement of development processes.\nLeverage AI-assisted development tools to improve productivity, code quality, and delivery speed.\nWork closely with the team to ensure an excellent user experience.\nContribute to the definition of best practices and development standards within the team.\n\nWhat We’re Looking For\n\nTechnical skills\nStrong experience with TypeScript, React, and Tailwind CSS.\nSolid testing practices using Jest and React Testing Library (RTL).\nExperience with AI-assisted development using tools like Claude Code.\nKnowledge of modern web tooling (Webpack/Vite).\nUnderstanding of Clean Architecture, DDD, CI/CD, and Git workflows.\nExperience with Web Performance Optimization, Feature Flags, and A/B testing.\nFamiliarity with monitoring, observability, and scalable front-end architectures.\n\nNice To Have Knowledge\nAccelerate metrics\nStorytelling skills\nMentoring and Interviewing skills\n\nSoft Skills, Mindset and Collaboration\nStrong communication and collaboration skills.\nAbility to work effectively across multiple engineering teams.\nPragmatic and outcome-oriented approach to engineering.\nStrong sense of ownership and operational responsibility.\nPassion for improving developer experience and team effectiveness.\nFluency in Spanish and English.\n\nPerks and Benefits\n\nCompetitive Salary + Bonus: We offer a package that reflects your experience and impact.\nFlexibility and Balance: Enjoy a hybrid work model (2 days in the office), 25 vacation days, and 20 work from anywhere days per year.\nProfessional Development: Grow your skills with an individual budget dedicated to your training and certifications.\nTop-Tier Offices: Work from our spaces in Glories (Barcelona) or Paseo de la Castellana (Madrid), featuring terraces, an on-site canteen, and free breakfast.\nHealth Insurance: Stay covered with 100% premium health insurance for you.\nFlexible Remuneration: Save on taxes with options for public transport, gym memberships, childcare, meals, and family health coverage.\nState-of-the-Art Tech: We’ll provide you with the latest equipment and hardware to do your best work.",
+      "label": "yes",
+      "expectedScore": 8,
+      "expectedMatchType": "direct",
+      "reason": "Strong React/TS/Tailwind + AI-assisted development + Barcelona hybrid + product/design collaboration and mature company.",
+      "redFlags": [],
+      "greenFlags": [
+        "barcelonaHybrid",
+        "aiFirstReal",
+        "stackMatchReactTSNode",
+        "leadershipScope"
+      ],
+      "outcome": "application_status_unknown"
+    },
+    {
+      "id": "adz-es-5668280185",
+      "company": "Causa Prima",
+      "title": "Senior Full-Stack Engineer (TypeScript)",
+      "location": "España",
+      "url": "https://www.adzuna.es/details/5668280185?utm_medium=api&utm_source=def0ca48",
+      "description": "You’ll build the surfaces through which humans interact with our agents — dashboards, approval flows, real-time visualizations, and the counterparty portal that pulls new companies into the network. What you’ll do Chat & real-time architecture — WebSocket-based event streaming, agent notification routing, dynamic query handling. Cash forecast visualization — Probabilistic forecasts with uncertainty bands and drill-down into underlying invoices and assumptions. Counterparty portal — A lightweigh…",
+      "label": "yes",
+      "expectedScore": 9,
+      "expectedMatchType": "stretch",
+      "reason": "AI agent/fullstack match fuerte y oportunidad que no buscaría por título.",
+      "redFlags": [],
+      "greenFlags": [],
+      "outcome": "promoted_from_admin",
+      "notes": "AI agent/fullstack match fuerte y oportunidad que no buscaría por título."
+    },
+    {
+      "id": "adz-es-5499522291",
+      "company": "Wizeline",
+      "title": "Staff React Engineer (TypeScript  AI Experience)",
+      "location": "Barcelona",
+      "url": "https://www.adzuna.es/details/5499522291?utm_medium=api&utm_source=def0ca48",
+      "description": "Staff React Engineer (TypeScript AI Experience) We are: Wizeline, a global AI-native technology solutions provider, develops cutting-edge, AI-powered digital products and platforms. We partner with clients to leverage data and AI, accelerating market entry and driving business transformation. As a global community of innovators, we foster a culture of growth, collaboration, and impact. With the right people and the right ideas, there’s no limit to what we can achieve. Are you a fit? Sounds awe…",
+      "label": "yes",
+      "expectedScore": 9,
+      "expectedMatchType": "stretch",
+      "reason": "High predicted score with strong fit signals.",
+      "redFlags": [],
+      "greenFlags": [],
+      "outcome": "promoted_from_admin",
+      "notes": "High predicted score with strong fit signals."
+    },
+    {
+      "id": "adz-es-5760281509",
+      "company": "The White Team",
+      "title": "T&M Servicio técnico Senior FullStack Developer - Barcelona (Posible Remoto)",
+      "location": "Barcelona",
+      "url": "https://www.adzuna.es/details/5760281509?utm_medium=api&utm_source=def0ca48",
+      "description": "En The Whiteam Consulting estamos buscando un perfil de 5-6 años de experiencia para la prestación de un servicio de desarrollo, mantenimiento y evolución de una plataforma digital enterprise de gran escala y alta complejidad, utilizada internacionalmente y operada en entornos productivos críticos, con una distribución equilibrada entre frontend y backend. Ubicación del servicio: Barcelona, con prestación en modalidad híbrida. 40% presencial 60% teletrabajo (Se pueden valorar candidatos de otra…",
+      "label": "maybe",
+      "expectedScore": 6,
+      "expectedMatchType": "stretch",
+      "reason": "Consultancy/staffing-ish source; needs human preference check.",
+      "redFlags": [
+        "Company not well known in Tier 3 design/AI circles",
+        "Consultancy context may shift project/stack unpredictably",
+        "Hybrid expectation might affect remote candidates"
+      ],
+      "greenFlags": [],
+      "outcome": "promoted_from_admin",
+      "notes": "Consultancy/staffing-ish source; needs human preference check."
+    },
+    {
+      "id": "adz-es-5760555402",
+      "company": "OneSpan",
+      "title": "Senior Software Developer",
+      "location": "Barcelona",
+      "url": "https://www.adzuna.es/details/5760555402?utm_medium=api&utm_source=def0ca48",
+      "description": "At OneSpan , we specialize in digital identity and anti-fraud solutions that create exceptional and secure experiences. OneSpan is currently looking for a Sr. Software Developer (Full-Stack) to join our team in Barcelona. You’ll be involved in the design, development, testing, and delivery of our Mobile Application Security Platform, working across both frontend and backend systems. You will help build scalable services and intuitive user interfaces that enable our security technologies and pro…",
+      "label": "yes",
+      "expectedScore": 8,
+      "expectedMatchType": "stretch",
+      "reason": "High predicted score with strong fit signals.",
+      "redFlags": [],
+      "greenFlags": [],
+      "outcome": "promoted_from_admin",
+      "notes": "High predicted score with strong fit signals."
+    },
+    {
+      "id": "adz-es-5761855648",
+      "company": "Pasiona",
+      "title": "Frontend Developer (TypeScript, Stencil.js & Design Systems)",
+      "location": "Barcelona",
+      "url": "https://www.adzuna.es/details/5761855648?utm_medium=api&utm_source=def0ca48",
+      "description": "Descripción del puesto / Funciones We are looking for a Frontend Developer to join a team responsible for building and evolving a scalable Design System used across multiple digital products. You will contribute to the development of reusable, accessible, and high-quality web components that enable teams to deliver consistent user experiences efficiently. This position is ideal for someone who enjoys working closely with designers and developers, has a passion for frontend technologies, and thr…",
+      "label": "yes",
+      "expectedScore": 8,
+      "expectedMatchType": "stretch",
+      "reason": "High predicted score with strong fit signals.",
+      "redFlags": [
+        "Stencil.js is not in core stack (React/Preact base)"
+      ],
+      "greenFlags": [],
+      "outcome": "promoted_from_admin",
+      "notes": "High predicted score with strong fit signals."
+    },
+    {
+      "id": "adz-es-5591389650",
+      "company": "Adaptive Financial Consulting",
+      "title": "Senior Frontend Developer (React, RxJS, Observables)",
+      "location": "Barcelona",
+      "url": "https://www.adzuna.es/details/5591389650?utm_medium=api&utm_source=def0ca48",
+      "description": "WE ARE: At Adaptive, we are a financial consulting firm that partners with capital, commodity, and digital market participants. We value differentiation through technology. Our experienced teams design and deliver complex technology solutions using our proven accelerators to create long-term competitive advantage. Our clients include the world's leading investment banks, investment managers, fintech and capital market service providers. With offices in London, New York, Barcelona and Montreal, …",
+      "label": "yes",
+      "expectedScore": 8,
+      "expectedMatchType": "stretch",
+      "reason": "High predicted score with strong fit signals.",
+      "redFlags": [],
+      "greenFlags": [],
+      "outcome": "promoted_from_admin",
+      "notes": "High predicted score with strong fit signals."
+    },
+    {
+      "id": "adz-es-5703304450",
+      "company": "Mystery Project",
+      "title": "Full Stack Developer (React y TypeScript)",
+      "location": "Cornellà de Llobregat, Barcelona",
+      "url": "https://www.adzuna.es/details/5703304450?utm_medium=api&utm_source=def0ca48",
+      "description": "Sobre el proyecto Compañía tecnológica con producto propio en entornos industriales y logísticos, que desarrolla soluciones digitales avanzadas para optimizar operaciones a gran escala. El equipo trabaja en el diseño de aplicaciones modernas que combinan interfaces complejas, lógica de negocio avanzada y arquitecturas escalables, con foco en usabilidad, rendimiento y calidad técnica. Se trata de un entorno donde el desarrollo no es “mantenimiento”, sino construcción real de producto. Misión del…",
+      "label": "yes",
+      "expectedScore": 8,
+      "expectedMatchType": "stretch",
+      "reason": "High predicted score with strong fit signals.",
+      "redFlags": [
+        "Company tier unclear",
+        "Hybrid policy not explicit",
+        "Industry (industrial/logistics) may differ from G's past roles"
+      ],
+      "greenFlags": [],
+      "outcome": "promoted_from_admin",
+      "notes": "High predicted score with strong fit signals."
+    },
+    {
+      "id": "gh-datadog-8015588",
+      "company": "Datadog",
+      "title": "Staff AI Engineer - Data Visualization",
+      "location": "Bordeaux, France; Grenoble, France; Lyon, France; Madrid, Spain; Montpellier, France; Nantes, France; Nice, France; Paris, France; Sophia Antipolis, France",
+      "url": "https://careers.datadoghq.com/detail/8015588/?gh_jid=8015588",
+      "description": "<p>This role will join Datadog’s Data Visualization organization, a team responsible for the visualization experiences that power dashboards, notebooks, investigations, and product workflows used across the platform. The team is a highly product-oriented organization, building AI-native experiences that help customers understand, investigate, and interact with complex operational data. As a Staff Software Engineer, you will provide technical leadership in applying AI technologies to customer-facing product experiences, helping shape how users interact with Datadog through agents, conversational interfaces, and intelligent investigation workflows. You will partner across engineering and product teams to develop reliable, scalable, and trustworthy AI-powered experiences while helping establish AI engineering expertise within the broader organization.</p> <p><em>At Datadog, we place value in our office culture - the relationships and collaboration it builds and the creativity it brings to the table. We operate as a hybrid workplace to ensure our Datadogs can create a work-life harmony that best fits them.</em></p> <p> </p> <p><strong>What You’ll Do:</strong></p> <ul> <li>Lead the design and delivery of AI-powered product experiences across Datadog’s visualization and investigation surfaces.</li> <li>Develop systems that combine deterministic product capabilities with LLM-powered experiences to deliver trustworthy and explainable customer outcomes.</li> <li>Drive innovation in context engineering, prompt engineering, evaluation frameworks, and AI application reliability.</li> <li>Partner with product and engineering teams to improve investigation workflows and help customers discover insights more efficiently.</li> <li>Build experiences that enable Datadog capabilities to operate within third-party AI platforms, agents, and conversational environments.</li> <li>Provide technical leadership and mentorship while helping establish AI engineering best practices across the Data Visualization organization and broader Graphing group.</li> </ul> <p> </p> <p><strong>Who You Are:</strong></p> <ul> <li>You have extensive software engineering experience and currently operate at or near Staff Engineer scope.</li> <li>You have hands-on experience delivering production AI-powered products and customer-facing experiences using LLM technologies.</li> <li>You have experience building reliable systems that manage model non-determinism through evaluation frameworks, testing strategies, and operational excellence.</li> <li>You approach engineering through a product mindset and can connect technical decisions to customer outcomes and business impact.</li> <li>You have experience collaborating across multiple teams and influencing technical direction without direct authority.</li> <li>Experience with agentic systems, conversational interfaces, AI-assisted investigations, observability, data visualization, or developer tools is a plus.</li> </ul> <p><em>Datadog values people from all walks of life. We know not everyone will meet all the above qualifications on day one. That’s okay. If you’re passionate about technology and want to grow your experience, we encourage you to apply.</em></p> <p> </p> <p><strong>Benefits and Growth:</strong></p> <ul> <li>Product training to develop an in-depth understanding of our product and space</li> <li>Continuous career development and pathing opportunities for internal mobility </li> <li>Intra-departmental mentor and buddy program for in-house networking </li> <li>An inclusive company culture, ability to join our Community Guilds</li> <li>New hire stock equity (RSUs) and employee stock purchase plan</li> <li>Free global mental health benefit through Spring Health </li> <li>Generous global benefits</li> </ul> <p><em>Benefits and Growth listed above may vary based on the country of your employment and the nature of your employment with Datadog.</em></p> <p style=\"color: white;\">#LI-Hybrid</p><div class=\"content-conclusion\"><hr> <p><strong>About Datadog: </strong></p> <p>Datadog is the leading observability and security platform for the AI era, providing businesses with unified visibility across the technology stack to manage complexity at scale. It brings applications, infrastructure, data, models, and security into one place, using AI to detect and resolve issues before they impact customers. Trusted globally by Fortune 500 companies and high-growth AI leaders, Datadog enables businesses to move faster with clarity and confidence. Learn more about #DatadogLife on <a href=\"https://www.instagram.com/datadoghq/?hl=en\" target=\"_blank\">Instagram</a>, <a href=\"https://www.linkedin.com/company/datadog\" target=\"_blank\">LinkedIn,</a> and <a href=\"https://learn.datadoghq.com/\" target=\"_blank\">Datadog Learning Center. </a></p> <hr> <p data-renderer-start-pos=\"215\"><strong data-renderer-mark=\"true\">Equal Opportunity at Datadog:</strong></p> <p>Datadog is proud to offer <a href=\"https://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRights6.12ScreenRdr.pdf\" target=\"_blank\">equal employment opportunity</a> to everyone regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity, veteran status, and other characteristics protected by law. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. Here are our <a href=\"https://www.datadoghq.com/legal/candidate-legal-notices/\" target=\"_blank\">Candidate Legal Notices</a> for your reference. </p> <p>Datadog endeavors to make our Careers Page accessible to all users. If you would like to contact us regarding the accessibility of our website or need assistance completing the application process, please complete <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSeoJeduEZ2NdZF_65uZmWUrCM-zee7yADXX1s6Xr9zAGq8iKA/viewform\" target=\"_blank\">this form</a>. This form is for accommodation requests only and cannot be used to inquire about the status of applications. </p> <p data-renderer-start-pos=\"662\"><strong data-renderer-mark=\"true\">Privacy and AI Guidelines:</strong></p> <p data-renderer-start-pos=\"662\">Any information you submit to Datadog as part of your application will be processed in accordance with Datadog’s <a class=\"c-link\" href=\"https://www.datadoghq.com/legal/applicant-candidate-privacy/\" target=\"_blank\" data-stringify-link=\"https://www.datadoghq.com/legal/applicant-candidate-privacy/\" data-sk=\"tooltip_parent\">Applicant and Candidate Privacy Notice</a>. For information on our AI policy, please visit <a href=\"https://www.datadoghq.com/legal/interviewing-at-datadog-ai-guidelines/\" target=\"_blank\">Interviewing at Datadog AI Guidelines</a>.</p></div>",
+      "label": "maybe",
+      "expectedScore": 4,
+      "expectedMatchType": "stretch",
+      "reason": "I think this offered is not for me, but I applied. It says STAFF eng and I don't think I am an staff eng.",
+      "redFlags": [],
+      "greenFlags": [],
+      "outcome": "promoted_from_admin",
+      "notes": "I think this offered is not for me, but I applied. It says STAFF eng and I don't think I am an staff eng."
+    },
+    {
+      "id": "adz-es-5768358752",
+      "company": "Orbik Cybersecurity Arteche Group",
+      "title": "Senior Frontend Lead: React & TypeScript, Flexible Work",
+      "location": "España",
+      "url": "https://www.adzuna.es/details/5768358752?utm_medium=api&utm_source=def0ca48",
+      "description": "A cybersecurity firm is seeking a skilled Senior Front-end Developer to lead frontend development efforts using React and TypeScript. In this role, you will implement responsive user interfaces, collaborate with designers, and optimize application performance. The ideal candidate has a minimum of 3 years of front-end development experience, proficiency in React and TypeScript, and a strong understanding of web technologies. A competitive salary and comprehensive benefits package, along with opp…",
+      "label": "yes",
+      "expectedScore": 8,
+      "expectedMatchType": "skip",
+      "reason": "It's not in Barcelona and its hybrid",
+      "redFlags": [
+        "company tier and size undisclosed",
+        "cybersecurity niche may not align with G's design/AI interests"
+      ],
+      "greenFlags": [],
+      "outcome": "promoted_from_admin",
+      "notes": "It's not in Barcelona and its hybrid"
+    },
+    {
+      "id": "adz-es-5768933908",
+      "company": "Alumni Ventures",
+      "title": "Staff Design Engineer, EU",
+      "location": "Barcelona, Cataluña",
+      "url": "https://www.adzuna.es/details/5768933908?utm_medium=api&utm_source=def0ca48",
+      "description": "About the role Design Engineer at Ashby combines design and engineering to shape the UI and UX of a powerful talent acquisition product used by hundreds of thousands of users. Responsibilities Redesign the mobile web app by working with customers, wireframing flows, implementing the design system, and turning wireframes into a polished UI. Build a set of flexible, composable components in the design system that enable other engineers to create consistent setup wizards across the product. Help p…",
+      "label": "no",
+      "expectedScore": 1,
+      "expectedMatchType": "skip",
+      "reason": "No veo la pagina de la empresa parece scam.",
+      "redFlags": [],
+      "greenFlags": [],
+      "outcome": "promoted_from_admin",
+      "notes": "No veo la pagina de la empresa parece scam."
+    },
+    {
+      "id": "adz-es-5768356729",
+      "company": "Filigran",
+      "title": "Senior Full-Stack Engineer (TypeScript/Python) — Remote & Equity",
+      "location": "España",
+      "url": "https://www.adzuna.es/details/5768356729?utm_medium=api&utm_source=def0ca48",
+      "description": "A cutting-edge cybersecurity company is seeking a Senior Software Engineer to develop a state-of-the-art product for their XTM Suite. You will build scalable applications using TypeScript and Python, refine software architecture, and engage with the open-source community. Ideal candidates will have senior-level Full Stack experience and strong architectural skills. This role offers competitive pay, a flexible remote environment, and the chance to significantly impact cybersecurity solutions. J-…",
+      "label": "yes",
+      "expectedScore": 8,
+      "expectedMatchType": "stretch",
+      "reason": "No se python",
+      "redFlags": [],
+      "greenFlags": [],
+      "outcome": "promoted_from_admin",
+      "notes": "No se python"
+    },
+    {
+      "id": "adz-es-5770917123",
+      "company": "Quixotic 360",
+      "title": "Front-End Developer (React/Next.Js) - Energytech",
+      "location": "Barcelona",
+      "url": "https://www.adzuna.es/details/5770917123?utm_medium=api&utm_source=def0ca48",
+      "description": "We are looking for people who are passionate, innovative and ready to make a difference.Front-End Developer (React/Next.Js) - EnergyTechFebruary 13, About employmentAt QUIXOTIC, we are reshaping how modern energy companies operate. Our mission is to empower energy retailers and communities with intelligent, flexible, and automated technology—unlocking scalability, efficiency, and a more sustainable energy future.We are a fast-growing EnergyTech company combining deep industry expertise with cut…",
+      "label": "maybe",
+      "expectedScore": 7,
+      "expectedMatchType": "stretch",
+      "reason": "Not opened anymore",
+      "redFlags": [
+        "Energytech domain not core interest",
+        "No explicit mention of product or AI work in description",
+        "Company recognition unclear (not in known-good list)"
+      ],
+      "greenFlags": [],
+      "outcome": "promoted_from_admin",
+      "notes": "Not opened anymore"
+    },
+    {
+      "id": "adz-es-5728277370",
+      "company": "Merlin Digital Partner",
+      "title": "Full Stack Engineer (Typescript / React)",
+      "location": "Barcelona",
+      "url": "https://www.adzuna.es/details/5728277370?utm_medium=api&utm_source=def0ca48",
+      "description": "We are Merlin Digital Partner , a leading consultancy specializing in IT and digital talent acquisition with over 10 years of experience. We have helped scale top companies such as Wallapop, Glovo, Banc Sabadell, and Duracell , among others. Focused on humanizing and streamlining recruitment processes , our goal is to transform companies by bringing in top talent . We stand out for deeply understanding each partner’s reality , not only their needs but also their essence. Our partner is a fast-g…",
+      "label": "yes",
+      "expectedScore": 8,
+      "expectedMatchType": "direct",
+      "reason": "High predicted score with strong fit signals but it as 1 month ago",
+      "redFlags": [
+        "Company tier unclear; not a universally recognized consultancy",
+        "No explicit mention of AI, design systems, or cross-team/product leadership in posting excerpt"
+      ],
+      "greenFlags": [],
+      "outcome": "promoted_from_admin",
+      "notes": "High predicted score with strong fit signals but it as 1 month ago"
+    },
+    {
+      "id": "adz-es-5775227980",
+      "company": "FUT-URE Recruitment and Technology",
+      "title": "Senior Front-End Developer – Barcelona, Spain – Artificial Intelligence",
+      "location": "Barcelona",
+      "url": "https://www.adzuna.es/details/5775227980?utm_medium=api&utm_source=def0ca48",
+      "description": "We are looking for a Senior Front-End Developer to join one of our clients – a disruptive startup in the field of AI and instant message technologies in Barcelona.Must-have Requirements:Experience in HTML5, CSS3/SASSKnowledge in Bootstrap (v4), React, and ReduxExperience with ReactNative, Service Workers, and FirebaseKnowledge in UI/UXNice-to-have Requirements:Knowledge in React HooksExperience with Sockets and/or ObserversUnderstanding of Higher-Order Components and Functional ProgrammingExper…",
+      "label": "yes",
+      "expectedScore": 8,
+      "expectedMatchType": "stretch",
+      "reason": "High predicted score with strong fit signals.",
+      "redFlags": [
+        "Company is a disruptive startup, which may not align with her preference for scale-ups, notable consultancies, or established companies.",
+        "No salary mentioned; comps may not fit her piso."
+      ],
+      "greenFlags": [],
+      "outcome": "promoted_from_admin",
+      "notes": "High predicted score with strong fit signals."
+    },
+    {
+      "id": "adz-es-5776670344",
+      "company": "FUT-URE Recruitment and Technology",
+      "title": "Senior Front-End Dev – Barcelona, React/Redux (Indefinite)",
+      "location": "Barcelona",
+      "url": "https://www.adzuna.es/details/5776670344?utm_medium=api&utm_source=def0ca48",
+      "description": "We are looking for a Senior Front-End Developer to join one of our clients – a disruptive startup in the field of AI and instant message technologies in Barcelona. Must-have Requirements: Experience in HTML5, CSS3/SASS Knowledge in Bootstrap (v4), React, and Redux Experience with ReactNative, Service Workers, and Firebase Knowledge in UI/UX Nice-to-have Requirements: Knowledge in React Hooks Experience with Sockets and/or Observers Understanding of Higher-Order Components and Functional Program…",
+      "label": "maybe",
+      "expectedScore": 6,
+      "expectedMatchType": "skip",
+      "reason": "Review-worthy but not obvious yes.",
+      "redFlags": [
+        "'disruptive startup' signals unknown tier - not a recognizable company; lacks specifics on team size, structure, or tech direction",
+        "Heavy emphasis on ReactNative, Service Workers, and Firebase, which are not explicit in G's CV"
+      ],
+      "greenFlags": [],
+      "outcome": "promoted_from_admin",
+      "notes": "Review-worthy but not obvious yes."
+    },
+    {
+      "id": "li-4433082565",
+      "company": "Q-tech",
+      "title": "Mid Full Stack Developer (React Focus)",
+      "location": "Barcelona (Hybrid)",
+      "url": "https://www.linkedin.com/comm/jobs/view/4433082565/",
+      "description": "We work with one of Northern Europe's leading streaming platforms — a company that combines original content with premium live sports rights (Formula 1, Champions League, Premier League, NHL and more).\n\n\n\nThe team\n\nThis role sits within the Logged Out Experience team. It's the first impression of the platform, and it has a direct, measurable impact on conversion\n\n\n\nThe team is distributed between Barcelona and Stockholm, which makes clear communication in English just as important as technical skill.\n\n\n\nWhat you'll be doing\n\n• Building and maintaining the public-facing web using React\n\n• Touching backend services (Node.js / TypeScript) when needed — enough to unblock yourself and contribute end-to-end\n\n• Working with the AWS stack: Lambdas, DynamoDB, SQS/SNS, GitHub Actions\n\n• Writing proper tests: unit, integration and E2E\n\n• Collaborating daily with teammates in Barcelona and Stockholm — sync in English, async by design\n\n\n\nWhat we're looking for\n\n• At least 3 years working full stack, spending most of your time on the frontend side\n\n• Solid React skills — this is your primary tool\n\n• Comfortable with Node.js and TypeScript in a services layer\n\n• Familiar with event-driven architecture and AWS cloud services\n\n• Strong testing mindset (unit, integration, E2E)\n\n• Fluent English — written and spoken\n\n• Someone who cares about product impact, not just shipping tasks\n\nNice to have\n\n• Experience working in distributed or cross-border teams\n\n• Interest in AI-assisted testing and spec-driven development\n\n\n\nThe offer\n\n• Contract: Permanent\n\n• Location: Barcelona — hybrid (min. 2 days/week in office)\n\n• Benefits: Private health insurance · Pension plan · Flexible remuneration\n\n• Holidays: 30 paid days per year\n\n• Hack Days: One full week/year to experiment freely — many projects make it to production\n\n• Perk: Free access to the full streaming platform: live sports, original content, linear channels\n\n\nBenefits found in job post\n\nSeguro médico, Plan de pensiones",
+      "label": "yes",
+      "expectedScore": 8,
+      "expectedMatchType": "stretch",
+      "reason": "G's deep React/TS experience fits the 'building and maintaining the public-facing web using React' and 'touching backend services (Node.js/TypeScript)' requirements. Her cross-team leadership, AI, and product mindset align closely with 'collaborating daily with teammates,' 'strong testing mindset,' and 'someone who cares about product impact.'",
+      "redFlags": [
+        "Mid title may understate scale of her experience",
+        "Primarily frontend in the team focus, but end-to-end described"
+      ],
+      "greenFlags": [
+        "reactTypescript",
+        "fullstackStretch",
+        "locationFit"
+      ],
+      "outcome": "promoted_from_admin",
+      "notes": "G's deep React/TS experience fits the 'building and maintaining the public-facing web using React' and 'touching backend services (Node.js/TypeScript)' requirements. Her cross-team leadership, AI, and product mindset align closely with 'collaborating daily with teammates,' 'strong testing mindset,' and 'someone who cares about product impact.'"
+    },
+    {
+      "id": "li-4431454044",
+      "company": "BairesDev",
+      "title": "Desarrollador Senior React + TypeScript - Trabajo Remoto",
+      "location": "Spain (Remote)",
+      "url": "https://www.linkedin.com/comm/jobs/view/4431454044/",
+      "description": "En BairesDev® llevamos 15 años liderando proyectos de tecnología para clientes como Google, Rolls-Royce y las startups más innovadoras de Silicon Valley. Actualmente, contamos con un equipo de 4000 profesionales conformado por el top 1% de la industria trabajando de forma remota desde más de 50 países. \n\n\n\nAl postularte a esta vacante, estarás dando el primer paso en un proceso que va más allá de lo convencional: Buscaremos conocer en profundidad tus habilidades, intereses y expectativas con el objetivo de realizar una búsqueda personalizada y encontrar el rol ideal para ti en BairesDev.\n\n\n\nDesarrollador Senior React + TypeScript en BairesDev\n\n\n\nComo Desarrollador Senior React + TypeScript en BairesDev, serás responsable de desarrollar aplicaciones web sofisticadas utilizando React y TypeScript. Trabajarás en un entorno que valora la innovación tecnológica, contribuyendo al desarrollo de soluciones escalables y mantenibles, garantizando altos estándares de calidad en el código. \n\n \n\nQué harás: \n\n \n\n- Diseñar e implementar aplicaciones web complejas utilizando React y TypeScript. \n\n- Crear componentes reutilizables y bibliotecas front-end para uso futuro. \n\n- Escribir código limpio y robusto siguiendo las mejores prácticas de TypeScript. \n\n- Optimizar el rendimiento y la capacidad de respuesta de las aplicaciones. \n\n- Diseñar soluciones front-end escalables. \n\n- Colaborar con el equipo en decisiones técnicas e implementaciones. \n\n- Guiar y mentorear a desarrolladores junior, además de participar en revisiones de código. \n\n \n\nQué buscamos: \n\n \n\n- Más de 4 años de experiencia en desarrollo con React y TypeScript. \n\n- Sólido entendimiento de mejores prácticas, como SOLID y clean code, con foco en soluciones escalables. \n\n- Experiencia extensa en revisiones de código, pruebas automatizadas e implementación de pipelines CI/CD. \n\n- Dominio en pruebas unitarias, de integración y mantenimiento de alta cobertura de código. \n\n- Capacidad comprobada para tomar decisiones técnicas informadas y aplicar el mejor enfoque según el caso. \n\n- Conocimientos de infraestructura IT. \n\n- Nivel nativo de español. \n\n- Nivel avanzado de inglés.\n\n\n\nQué ofrecemos para que tu trabajo (y tu vida) seja mais fácil:\n\n\n\n- Trabajo 100% remoto: trabaja desde tu casa o donde quieras.\n\n- Compensación en USD o en tu moneda local, como prefieras, muy por encima de la media del mercado.\n\n- Hardware y software.\n\n- Horarios flexibles\n\n- Licencias por mater/paternidad, vacaciones y días festivos nacionales pagos.\n\n- Ambiente laboral multicultural e innovador, perfecto para hacer amigos, colaborar y aprender de las personas más talentosas del mundo.\n\n- Oportunidades de crecimiento y desarrollo profesional a través de mentorías y entrenamientos.\n\n\n\n¡Únete a nuestro equipo global!",
+      "label": "maybe",
+      "expectedScore": 6,
+      "expectedMatchType": "stretch",
+      "reason": "Remote React/TypeScript senior role fits stack, but BairesDev is a staffing firm.",
+      "redFlags": [],
+      "greenFlags": [
+        "seniorFrontend",
+        "reactTypescript",
+        "locationFit"
+      ],
+      "outcome": "promoted_from_admin",
+      "notes": "Remote React/TypeScript senior role fits stack, but BairesDev is a staffing firm."
+    }
+  ]
+}

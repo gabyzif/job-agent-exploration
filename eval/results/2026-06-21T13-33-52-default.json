@@ -1,0 +1,19 @@
+{
+  "config": "default",
+  "timestamp": "2026-06-21T13-33-52",
+  "metrics": {
+    "totalLabeled": 41,
+    "runnable": 0,
+    "missingDescriptions": 11,
+    "maybeReviewCount": 0,
+    "maybeReviewRate": 0,
+    "triagePrecision": 0,
+    "triageRecall": 0,
+    "triageF1": 0,
+    "scoreMAE": 0,
+    "matchTypeAccuracy": 0,
+    "falseNegatives": 0,
+    "falsePositives": 0
+  },
+  "results": []
+}

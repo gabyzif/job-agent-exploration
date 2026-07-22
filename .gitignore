@@ -1,0 +1,11 @@
+.env
+.env.local
+.env.*.local
+!.env.example
+!.env.local.example
+
+state.json
+runs/
+.adzuna-last-run
+agent.log
+node_modules/

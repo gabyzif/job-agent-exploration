@@ -1,0 +1,1014 @@
+{
+  "config": "default",
+  "timestamp": "2026-06-10T10-33-26",
+  "metrics": {
+    "totalLabeled": 34,
+    "runnable": 23,
+    "missingDescriptions": 11,
+    "maybeReviewCount": 10,
+    "maybeReviewRate": 0.9,
+    "triagePrecision": 0.9,
+    "triageRecall": 1,
+    "triageF1": 0.9473684210526316,
+    "scoreMAE": 1.9565217391304348,
+    "matchTypeAccuracy": 0.4782608695652174,
+    "falseNegatives": 0,
+    "falsePositives": 1
+  },
+  "results": [
+    {
+      "id": "marfeel-fe-eng",
+      "company": "Marfeel",
+      "title": "Frontend Engineer",
+      "expected": {
+        "label": "yes",
+        "score": 9,
+        "matchType": "direct",
+        "redFlags": [],
+        "greenFlags": [
+          "barcelonaHybrid",
+          "aiFirstReal",
+          "stackMatchReactTSNode",
+          "designSystems"
+        ]
+      },
+      "detectedSignals": {
+        "hardReject": false,
+        "rejectReasons": [],
+        "redFlags": [],
+        "greenFlags": [
+          "aiFirstReal",
+          "designSystems",
+          "leadershipScope",
+          "barcelonaHybrid"
+        ]
+      },
+      "triage": {
+        "fitScore": 9,
+        "matchType": "direct",
+        "reason": "Strong React/TS and AI usage match; Barcelona hybrid location fits well."
+      },
+      "deep": {
+        "fitScore": 10,
+        "matchType": "stretch",
+        "redFlags": [],
+        "whyMatch": "G matches all direct requirements (React/TS, design systems, AI-tooling), but crucially brings stand-out strengths in 'AI-assisted development at team level' and 'collaborating closely with designers' cited in description—both undervalued on her CV.",
+        "hiddenMatch": "Highlight her 'Production AI agent implementation' and 'AI-assisted workflows' as aligning directly with 'Experience integrating AI tooling into development workflows in a meaningful way: using agents, MCP servers, or AI-assisted development at team level', and her 'design engineering' & Figma plugins work as matching 'UX design sensibility or experience collaborating closely with designers'.",
+        "outreach": "Hi Marfeel team—G brings 5+ years building at web scale with deep React/TS and JavaScript, but what stands out for your role is her hands-on experience implementing production AI agents and integrating Copilot/AI workflows across teams ('AI-assisted development at team level'), as well as bridging code and design (Figma plugin author, design system leadership). She’s also led performance/architecture initiatives and worked in hybrid Barcelona teams—your exact needs."
+      },
+      "triageCorrect": true,
+      "deepCorrect": true,
+      "scoreDiff": 1
+    },
+    {
+      "id": "titan-fe-eng",
+      "company": "Titan OS",
+      "title": "Frontend Engineer",
+      "expected": {
+        "label": "yes",
+        "score": 8,
+        "matchType": "direct",
+        "redFlags": [
+          "startupSmall"
+        ],
+        "greenFlags": [
+          "barcelonaHybrid",
+          "startupSolidSignals"
+        ]
+      },
+      "detectedSignals": {
+        "hardReject": false,
+        "rejectReasons": [],
+        "redFlags": [],
+        "greenFlags": [
+          "leadershipScope",
+          "barcelonaHybrid"
+        ]
+      },
+      "triage": {
+        "fitScore": 8,
+        "matchType": "direct",
+        "reason": "Strong React/TS/frontend fit in Barcelona hybrid with good funding and growth."
+      },
+      "deep": {
+        "fitScore": 9,
+        "matchType": "stretch",
+        "redFlags": [],
+        "whyMatch": "Role explicitly looks for frontend expertise with React, architectural ownership, cross-team collaboration, and delivery for high-scale products—aligned with her deep stack, design-engineering, and production experience.",
+        "hiddenMatch": "The job asks to 'work with backend engineers, product managers, and UX designers to deliver new features' and to 'participate and assist in setting the long-term direction, roadmaps, and standards for the web app'—both directly map to G’s product thinking, cross-team technical leadership, and design ownership, which are not always clear from her CV's frontend focus. Also, 'conduct code reviews of work done by other engineers in the team' fits her soft-lead and cross-team leadership background.",
+        "outreach": "Hi, I have a senior frontend engineer in Barcelona whose experience aligns closely with your need for architectural leadership, cross-team collaboration, and code quality. Beyond her strong React/TS background, she owns cross-functional delivery: partnering with backend, product, and UX, and leading code reviews—exactly as you describe. With hidden strengths in product direction and design-system ownership, she brings both breadth and impact in high-scale environments."
+      },
+      "triageCorrect": true,
+      "deepCorrect": true,
+      "scoreDiff": 1
+    },
+    {
+      "id": "emotion-fullstack",
+      "company": "Emotion",
+      "title": "Senior Full Stack Software Engineer",
+      "expected": {
+        "label": "yes",
+        "score": 8,
+        "matchType": "stretch",
+        "redFlags": [],
+        "greenFlags": [
+          "barcelonaHybrid",
+          "aiFirstReal",
+          "leadershipScope"
+        ]
+      },
+      "detectedSignals": {
+        "hardReject": false,
+        "rejectReasons": [],
+        "redFlags": [
+          "startupSmall"
+        ],
+        "greenFlags": [
+          "stackMatchReactTSNode",
+          "leadershipScope",
+          "barcelonaHybrid"
+        ]
+      },
+      "triage": {
+        "fitScore": 8,
+        "matchType": "direct",
+        "reason": "Strong location and stack fit with senior full stack role and leadership responsibilities."
+      },
+      "deep": {
+        "fitScore": 9,
+        "matchType": "stretch",
+        "redFlags": [],
+        "whyMatch": "The role asks for someone to 'own the technical roadmap' and 'be the go-to reference for developers with less seniority,' which aligns with G's cross-team leadership and product thinking. It specifically seeks candidates who are 'AI-first,' comfortable with AI-powered solutions and 'actively push the team to use it more,' which matches her AI integration and workflow experience.",
+        "hiddenMatch": "Highlight G's fullstack background (Node, API design, schema contracts) even though her CV says frontend—this matches 'full-stack development experience' and 'architectural decisions.' Her production AI implementation (e.g., Copilot agents, Figma Code Connect) fits 'Genuinely AI-first... you push the team to use [AI] more.' Experience with headless CMS aligns with 'own and evolve our platforms.' Her product intuition, design engineering, and accessibility work are directly relevant for 'think from a user experience and product perspective' and 'build tools that make our operations team faster.'",
+        "outreach": "Hi, saw your listing for a Senior Full Stack Software Engineer. G is a Senior Frontend Engineer in Barcelona whose CV highlights React/TypeScript, but she actually leads end-to-end product delivery across frontend, backend (Node), and AI/agent tooling — including implementing complex AI workflows and design ops (Figma plugins, CMS). She's led technical roadmaps, cross-team coordination, and shipped AI-powered features, fitting your need for 'AI-first,' fullstack ownership and design-product leadership. Strong match for your emphasis on autonomy, platform ownership, and mentoring."
+      },
+      "triageCorrect": true,
+      "deepCorrect": true,
+      "scoreDiff": 1
+    },
+    {
+      "id": "dowjones-staff-ai",
+      "company": "Dow Jones",
+      "title": "Staff Software Engineer, AI Enablement Team",
+      "expected": {
+        "label": "yes",
+        "score": 9,
+        "matchType": "stretch",
+        "redFlags": [],
+        "greenFlags": [
+          "barcelonaHybrid",
+          "aiFirstReal",
+          "leadershipScope"
+        ]
+      },
+      "detectedSignals": {
+        "hardReject": false,
+        "rejectReasons": [],
+        "redFlags": [
+          "legacyStackCore"
+        ],
+        "greenFlags": [
+          "aiFirstReal",
+          "stackMatchReactTSNode",
+          "leadershipScope",
+          "barcelonaHybrid"
+        ]
+      },
+      "triage": {
+        "fitScore": 8,
+        "matchType": "direct",
+        "reason": "Strong React/TS frontend match, Barcelona hybrid, AI enterprise focus fits candidate well."
+      },
+      "deep": {
+        "fitScore": 9,
+        "matchType": "stretch",
+        "redFlags": [],
+        "whyMatch": "Role requires leading 'design, development, and maintenance of robust and scalable front-end features' and 'collaborating with expert users ensuring... UI ready for GenAI'—both align with G's product/UI and AI-experimentation strengths.",
+        "hiddenMatch": "The description's focus on 'next generation enterprise Dashboard 4.0... ready for GenAI' and 'collaborating with expert users' strongly matches G's production AI agent implementation, cross-team leadership, and deep product/design engineering experience, which go far beyond what her 'frontend' CV states.",
+        "outreach": "Hi—I noticed your opening for Staff Software Engineer on the AI Enablement Team, especially the challenge of advancing a GenAI-ready enterprise dashboard. G is not just a senior React/TypeScript lead, but brings proven AI agent integration (production use), design/dev ownership (Figma plugins, cross-team coordination), and fullstack/architecture chops, which align perfectly with building next-gen enterprise UIs. Could we discuss how her cross-disciplinary leadership and AI experience maps to your product vision?"
+      },
+      "triageCorrect": true,
+      "deepCorrect": true,
+      "scoreDiff": 0
+    },
+    {
+      "id": "expereo-swe-fe",
+      "company": "Expereo",
+      "title": "Software Engineer (Front End)",
+      "expected": {
+        "label": "yes",
+        "score": 8,
+        "matchType": "direct",
+        "redFlags": [],
+        "greenFlags": [
+          "aiFirstReal",
+          "designSystems"
+        ]
+      },
+      "detectedSignals": {
+        "hardReject": false,
+        "rejectReasons": [],
+        "redFlags": [],
+        "greenFlags": [
+          "startupSolidSignals",
+          "aiFirstReal",
+          "designSystems",
+          "leadershipScope"
+        ]
+      },
+      "triage": {
+        "fitScore": 7,
+        "matchType": "stretch",
+        "reason": "Role matches React and design system experience; location unclear, company tier moderate."
+      },
+      "deep": {
+        "fitScore": 8,
+        "matchType": "stretch",
+        "redFlags": [
+          "Location is not explicitly stated; salary is unknown; potential seniority mismatch if the role leans 'mid-level'."
+        ],
+        "whyMatch": "Description heavily highlights 'design systems', 'API integration', 'agentic AI', and 'cross-functional squads', all of which map to G's stretch skillset but are underplayed on her CV.",
+        "hiddenMatch": "Role references 'integrate front-end applications with internal/external APIs and platform services', 'support initiatives like agentic AI enablement', and 'build observability into user-facing applications, enabling proactive monitoring'. G's strong experience in production AI agent implementation, AI-assisted workflows, and fullstack/API design (rare at her level) are major, high-value differentiators for these asks.",
+        "outreach": "Hi! Saw your posting for the front-end engineer role in Expereo's new Digital Office. I work with a Barcelona-based senior who not only leads on design systems and advanced React, but also has hands-on experience driving AI agent integration and building cross-team observability into production CI/CD pipelines—well beyond what's on most CVs. She excels at bridging engineering and product in fullstack squads and thrives in the kind of 'agentic AI enablement' and programmable UX challenges your description highlights."
+      },
+      "triageCorrect": true,
+      "deepCorrect": true,
+      "scoreDiff": 0
+    },
+    {
+      "id": "agap2-sr-fe",
+      "company": "Agap2",
+      "title": "Senior Frontend Developer",
+      "expected": {
+        "label": "yes",
+        "score": 7,
+        "matchType": "direct",
+        "redFlags": [],
+        "greenFlags": [
+          "barcelonaHybrid",
+          "knownConsultancy",
+          "designSystems"
+        ]
+      },
+      "detectedSignals": {
+        "hardReject": false,
+        "rejectReasons": [],
+        "redFlags": [],
+        "greenFlags": [
+          "knownConsultancy",
+          "stackMatchReactTSNode",
+          "barcelonaHybrid"
+        ]
+      },
+      "triage": {
+        "fitScore": 7,
+        "matchType": "stretch",
+        "reason": "Barcelona hybrid React/TS role fits but Agap2 is mid-tier consultancy, no AI focus."
+      },
+      "deep": {
+        "fitScore": 7,
+        "matchType": "stretch",
+        "redFlags": [
+          "Agap2 is a consultancy with mostly non-AI projects",
+          "Job focuses heavily on classic frontend, little mention of fullstack/product/AI ownership"
+        ],
+        "whyMatch": "Role requires 'Integración con APIs y servicios de terceros' and 'Colaboración con equipos multidisciplinares', both strong in G's actual work. Looking for deep React/TS and design-system work aligns with her strengths.",
+        "hiddenMatch": "Highlight G's experience with 'CMS Headless'—not just Drupal, but also advanced API, schema contracts, and design-ownership on headless projects (e.g., Figma plugin work, production AI agents). Job wants cross-team collaboration and architecture input ('Colaboración con equipos multidisciplinares y revisión de código'), exactly where G stretches past most FE devs.",
+        "outreach": "Hi, I'm reaching out regarding your Senior Frontend Developer opening. G brings not only deep React/TS experience but also advanced headless CMS and API integration, having led architecture design and multi-team projects—well beyond typical frontend work. Her background in design engineering and cross-team coordination aligns perfectly with your focus on multidisciplinary collaboration and headless integration."
+      },
+      "triageCorrect": true,
+      "deepCorrect": true,
+      "scoreDiff": 0
+    },
+    {
+      "id": "mediamarkt-sr-swe-fe",
+      "company": "Media Markt (Ceconomy)",
+      "title": "Senior Software Engineer (Frontend focus)",
+      "expected": {
+        "label": "yes",
+        "score": 7,
+        "matchType": "stretch",
+        "redFlags": [],
+        "greenFlags": [
+          "barcelonaHybrid",
+          "designSystems",
+          "leadershipScope"
+        ]
+      },
+      "detectedSignals": {
+        "hardReject": false,
+        "rejectReasons": [],
+        "redFlags": [],
+        "greenFlags": [
+          "designSystems",
+          "leadershipScope",
+          "barcelonaHybrid"
+        ]
+      },
+      "triage": {
+        "fitScore": 8,
+        "matchType": "direct",
+        "reason": "Strong frontend focus, React/TS stack, Barcelona hybrid, senior level, good company size"
+      },
+      "deep": {
+        "fitScore": 9,
+        "matchType": "stretch",
+        "redFlags": [],
+        "whyMatch": "Role explicitly requires leading platform delivery, frontend architecture, and design system contribution ('Leads platform delivery end-to-end', 'contributes to shared libraries and design systems'), all core to G’s experience. Collaboration across frontend, backend, and design teams and accessible best practices are also central ('Collaborates across frontend, backend, and design teams', 'applies accessibility, testing, and performance optimization').",
+        "hiddenMatch": "Highlight fullstack/backend comfort ('Integrating our GUIs with backend service landscape'), design engineering at Figma/dev boundary, accessibility leadership ('applies accessibility, testing, and performance optimization best practices'), and deep product/cross-team leadership ('Leads platform delivery end-to-end, from concept to production') — all visible in her actual work but not front of CV. Particularly surface her API integration, design system governance, and organizational impact.",
+        "outreach": "Hi, I’m reaching out about your Senior Software Engineer (Frontend focus) opening on the Payment & Basket Platform team. G brings not just advanced React/TS/frontend expertise and design system work, but also deep hands-on experience integrating frontend with complex backend service landscapes and leading product architecture—precisely as you note in 'leading platform delivery end-to-end' and 'guiding teams across frontend, backend, and design'. She also brings organizational leadership in accessibility and cross-team stewardship you call for in the spec."
+      },
+      "triageCorrect": true,
+      "deepCorrect": true,
+      "scoreDiff": 2
+    },
+    {
+      "id": "teamblue-sr-fe-react",
+      "company": "team.blue Hub",
+      "title": "Senior Front-End Developer (React)",
+      "expected": {
+        "label": "maybe",
+        "score": 6,
+        "matchType": "stretch",
+        "redFlags": [
+          "startupFragileRisk"
+        ],
+        "greenFlags": [
+          "remoteEU",
+          "aiFirstReal"
+        ]
+      },
+      "detectedSignals": {
+        "hardReject": false,
+        "rejectReasons": [],
+        "redFlags": [
+          "startupSmall"
+        ],
+        "greenFlags": [
+          "aiFirstReal",
+          "leadershipScope",
+          "barcelonaHybrid",
+          "remoteEU"
+        ]
+      },
+      "triage": {
+        "fitScore": 8,
+        "matchType": "direct",
+        "reason": "Strong React/TS match, AI agent experience relevant, remote EU/Barcelona option"
+      },
+      "deep": {
+        "fitScore": 9,
+        "matchType": "stretch",
+        "redFlags": [],
+        "whyMatch": "The description emphasizes 'Develop modular UI components and shared libraries' and 'Pick up backend tasks... as needed,' plus 'Contribute to agentic / conversational UI surfaces,' all of which perfectly match G's actual experience across frontend, AI, and backend work.",
+        "hiddenMatch": "While her CV says 'frontend,' G also directly matches your call for 'Pick up backend tasks at journeyman level as needed' due to her real fullstack and API experience. She's already 'Contribut[ed] to agentic / conversational UI surfaces' via production AI agent implementation (few FE have this). She also drives cross-team architecture and accessibility—key for 'seamless integration,' 'accessibility,' and collaborating with designers and backend teams.",
+        "outreach": "Hi [Lead], I have a Barcelona-based Senior Engineer who deeply matches your 'AI-first, high-ownership' culture. Beyond her CV, she owns fullstack API and schema contracts and is already shipping production conversational AI surfaces—exactly as your 'agentic UI surfaces' roadmap calls for. She also leads cross-team collaboration and accessibility, making her an immediate asset for your fast-moving squads."
+      },
+      "triageCorrect": true,
+      "deepCorrect": true,
+      "scoreDiff": 3
+    },
+    {
+      "id": "allianz-ai-fullstack",
+      "company": "Allianz Technology",
+      "title": "AI Full Stack Developer",
+      "expected": {
+        "label": "maybe",
+        "score": 6,
+        "matchType": "stretch",
+        "redFlags": [
+          "legacyStackCore"
+        ],
+        "greenFlags": [
+          "aiFirstReal"
+        ]
+      },
+      "detectedSignals": {
+        "hardReject": false,
+        "rejectReasons": [],
+        "redFlags": [
+          "legacyStackCore"
+        ],
+        "greenFlags": [
+          "aiFirstReal",
+          "leadershipScope"
+        ]
+      },
+      "triage": {
+        "fitScore": 5,
+        "matchType": "stretch",
+        "reason": "Role backend-heavy Java/Spring/Angular, candidate frontend React/TS focus; AI relevance noted"
+      },
+      "deep": null,
+      "triageCorrect": false,
+      "deepCorrect": null,
+      "scoreDiff": 1
+    },
+    {
+      "id": "kyndryl-ai-agentic-fs",
+      "company": "Kyndryl",
+      "title": "AI Agentic Full Stack Developer",
+      "expected": {
+        "label": "maybe",
+        "score": 6,
+        "matchType": "stretch",
+        "redFlags": [
+          "legacyStackCore"
+        ],
+        "greenFlags": [
+          "barcelonaHybrid",
+          "aiFirstReal",
+          "leadershipScope"
+        ]
+      },
+      "detectedSignals": {
+        "hardReject": false,
+        "rejectReasons": [],
+        "redFlags": [
+          "elitistCulture",
+          "legacyStackCore"
+        ],
+        "greenFlags": [
+          "leadershipScope",
+          "barcelonaHybrid",
+          "remoteEU"
+        ]
+      },
+      "triage": {
+        "fitScore": 7,
+        "matchType": "stretch",
+        "reason": "Barcelona location and AI/fullstack role align, but Java/Spring core lowers frontend fit."
+      },
+      "deep": {
+        "fitScore": 8,
+        "matchType": "stretch",
+        "redFlags": [
+          "Java/Spring as core backend prefers JVM background",
+          "Explicit certification in a hyperscaler not listed"
+        ],
+        "whyMatch": "Role insists on 'full stack' with explicit AI integration and both frontend (React) and backend experience; G's production AI agent work, Node/API design, and cross-discipline skills are a true fit for the 'Agentic AI' environment described.",
+        "hiddenMatch": "The description emphasizes 'building and maintaining cutting-edge web applications and services... from designing intuitive, responsive user interfaces to developing robust backend systems and APIs' and 'Agentic AI solutions.' Her CV says only 'frontend', but she drives fullstack AI agent implementations, API contracts, and Figma/dev handoff, plus proven cross-team/product ownership—matching core expectations for this innovation hub.",
+        "outreach": "Hi! Saw your opening at the AI Agentic Innovation Hub — I've led production AI agent integrations and own cross-stack UI/API delivery in complex design-driven teams (Node, React, Figma, CMS). Your role's ownership of both 'intuitive responsive UIs' and 'robust backend systems' plus Agentic AI focus is a strong match for my skill set, though my CV currently highlights only the frontend. Happy to elaborate on architectural and agent-centric projects relevant to your mission."
+      },
+      "triageCorrect": true,
+      "deepCorrect": true,
+      "scoreDiff": 2
+    },
+    {
+      "id": "proton-sr-fe-drive",
+      "company": "Proton",
+      "title": "Senior Front End Engineer (Drive)",
+      "expected": {
+        "label": "maybe",
+        "score": 6,
+        "matchType": "direct",
+        "redFlags": [
+          "elitistCulture",
+          "officeHeavy"
+        ],
+        "greenFlags": []
+      },
+      "detectedSignals": {
+        "hardReject": false,
+        "rejectReasons": [],
+        "redFlags": [
+          "startupSmall",
+          "elitistCulture",
+          "officeHeavy"
+        ],
+        "greenFlags": [
+          "leadershipScope"
+        ]
+      },
+      "triage": {
+        "fitScore": 8,
+        "matchType": "direct",
+        "reason": "Senior frontend role in Barcelona at a well-known company, strong tech and cultural fit."
+      },
+      "deep": {
+        "fitScore": 9,
+        "matchType": "stretch",
+        "redFlags": [
+          "Office-first, 70% presence required—check location flexibility",
+          "Primary backend stack is PHP/Symfony, not Node"
+        ],
+        "whyMatch": "Payments team is 'the most cross-functional team in the business', requiring cross-team coordination and product impact, fully in React frontend. The need to 'build with resilience' across external APIs matches her fullstack/API background.",
+        "hiddenMatch": "Role highly values 'cross-functional' teamwork with impact across product, finance, account, and business units. Her CV should surface her leadership in cross-team architecture, CMS/payment systems coordination, and her product/AI workflow contributions. Description: 'The team works in tight collaboration … with direct impact on the ecosystem strategy.'",
+        "outreach": "Hi! Saw your Senior Front End Engineer (Drive) role on the Payments Team at Proton. G’s CV leads with advanced React and design systems, but her experience is much deeper—she’s led frontend/API integration across payments and subscription flows, and coordinated between product, finance, and backend teams (Drupal/headless CMS, fintech/crypto, cross-functional architecture). I’d love to share how her leadership in product workflows and multi-team collaboration maps to your cross-functional Payments environment."
+      },
+      "triageCorrect": true,
+      "deepCorrect": true,
+      "scoreDiff": 3
+    },
+    {
+      "id": "bitpanda-sr-react-broker",
+      "company": "Bitpanda",
+      "title": "Senior Software Engineer, React (Broker Web Platform)",
+      "expected": {
+        "label": "maybe",
+        "score": 6,
+        "matchType": "direct",
+        "redFlags": [
+          "cryptoHypeRisk"
+        ],
+        "greenFlags": [
+          "remoteEU"
+        ]
+      },
+      "detectedSignals": {
+        "hardReject": false,
+        "rejectReasons": [],
+        "redFlags": [
+          "cryptoHypeRisk"
+        ],
+        "greenFlags": [
+          "leadershipScope",
+          "remoteEU"
+        ]
+      },
+      "triage": {
+        "fitScore": 8,
+        "matchType": "direct",
+        "reason": "Strong React/TS frontend focus at Tier 2+ EU remote company, fits Barcelona/Spain location and seniority."
+      },
+      "deep": {
+        "fitScore": 9,
+        "matchType": "stretch",
+        "redFlags": [],
+        "whyMatch": "Role expects ownership of frontend architecture across product, design, and backend (\"Collaborate deeply with product, design, and backend engineering\"); G's history of driving major design/dev and cross-team projects fits perfectly, alongside expected React/TS expertise.",
+        "hiddenMatch": "The job's emphasis on 'cross-team collaboration, influencing stakeholders, and driving alignment on technical decisions' and end-to-end product/UX execution aligns with G’s actual experience owning product direction, design-dev boundary, Figma integration, and leading multi-disciplinary teams, none of which appear upfront in her CV.",
+        "outreach": "Hi, reaching out about your Senior Frontend Engineer (React) opening. G has architected highly scalable React/TypeScript platforms and brings deep experience in complex product/design/backend collaborations, as your description demands. Notably, she's driven cross-team efforts at the design-dev boundary and led multi-stakeholder projects—experience that goes beyond her 'frontend' CV wording and directly supports the end-to-end ownership you want."
+      },
+      "triageCorrect": true,
+      "deepCorrect": true,
+      "scoreDiff": 3
+    },
+    {
+      "id": "toptal-sr-fe",
+      "company": "Toptal",
+      "title": "Senior Frontend Engineer",
+      "expected": {
+        "label": "no",
+        "score": 3,
+        "matchType": "direct",
+        "redFlags": [
+          "elitistCulture",
+          "rubyCore"
+        ],
+        "greenFlags": []
+      },
+      "detectedSignals": {
+        "hardReject": false,
+        "rejectReasons": [],
+        "redFlags": [
+          "elitistCulture",
+          "rubyCore"
+        ],
+        "greenFlags": [
+          "stackMatchReactTSNode",
+          "leadershipScope"
+        ]
+      },
+      "triage": {
+        "fitScore": 6,
+        "matchType": "stretch",
+        "reason": "Remote role with React/TS, but talent marketplace and no Barcelona hybrid option."
+      },
+      "deep": null,
+      "triageCorrect": true,
+      "deepCorrect": null,
+      "scoreDiff": 3
+    },
+    {
+      "id": "scopely-playgami-sr",
+      "company": "Scopely (Playgami)",
+      "title": "Senior/Software Engineer (Playgami)",
+      "expected": {
+        "label": "no",
+        "score": 4,
+        "matchType": "reach",
+        "redFlags": [
+          "legacyStackCore"
+        ],
+        "greenFlags": [
+          "barcelonaHybrid"
+        ]
+      },
+      "detectedSignals": {
+        "hardReject": false,
+        "rejectReasons": [],
+        "redFlags": [
+          "legacyStackCore"
+        ],
+        "greenFlags": [
+          "barcelonaHybrid"
+        ]
+      },
+      "triage": {
+        "fitScore": 6,
+        "matchType": "reach",
+        "reason": "Strong engineering, hybrid Barcelona match but Java/C# over React/TS core"
+      },
+      "deep": null,
+      "triageCorrect": true,
+      "deepCorrect": null,
+      "scoreDiff": 2
+    },
+    {
+      "id": "between-fullstack",
+      "company": "BETWEEN Technology",
+      "title": "Analista Programador Full Stack",
+      "expected": {
+        "label": "no",
+        "score": 3,
+        "matchType": "reach",
+        "redFlags": [
+          "anonymousSpanishStaffing",
+          "legacyStackCore"
+        ],
+        "greenFlags": []
+      },
+      "detectedSignals": {
+        "hardReject": false,
+        "rejectReasons": [],
+        "redFlags": [
+          "legacyStackCore"
+        ],
+        "greenFlags": [
+          "barcelonaHybrid"
+        ]
+      },
+      "triage": {
+        "fitScore": 5,
+        "matchType": "reach",
+        "reason": "Strong fullstack but Java/Spring core, between consultancy-style, less AI focus."
+      },
+      "deep": null,
+      "triageCorrect": true,
+      "deepCorrect": null,
+      "scoreDiff": 2
+    },
+    {
+      "id": "footprint-mappa-agentic",
+      "company": "Footprint MAPPA",
+      "title": "Agentic-Driven Software Developer Engineer",
+      "expected": {
+        "label": "no",
+        "score": 4,
+        "matchType": "direct",
+        "redFlags": [
+          "startupSmall",
+          "startupFragileRisk",
+          "aiHypeRisk"
+        ],
+        "greenFlags": []
+      },
+      "detectedSignals": {
+        "hardReject": false,
+        "rejectReasons": [],
+        "redFlags": [],
+        "greenFlags": [
+          "aiFirstReal",
+          "stackMatchReactTSNode"
+        ]
+      },
+      "triage": {
+        "fitScore": 7,
+        "matchType": "reach",
+        "reason": "Barcelona location and AI applied fit; unclear if strong frontend React/TS match."
+      },
+      "deep": {
+        "fitScore": 8,
+        "matchType": "stretch",
+        "redFlags": [
+          "Salary is significantly below candidate's current expectations and market rate",
+          "Startup phase: stability and long-term growth not guaranteed"
+        ],
+        "whyMatch": "Description asks for 'dominio de TypeScript', 'experiencia trabajando sobre Next.js / React en producción', and 'experiencia demostrada en IA aplicada', all core to G's actual skills and recent work, including AI/agentic workflows in production. The need for product-focused mindset and design-technical translation aligns with her leadership and cross-functional experience.",
+        "hiddenMatch": "The role emphasizes the ability to 'trabajar con datos sucios, incompletos y contradictorios' and 'metodología de desarrollo agéntica' with LLMs and production systems; G's real-world AI agent implementation, API/schema ownership, and regular cross-team delivery with headless CMS and accessibility are all advanced but under-emphasized on her CV. Highlight 'what desarrollas entra en producción, no en un repositorio de investigación' — G has shipped working AI-powered features to users, not just demos or POCs.",
+        "outreach": "Hi! Just read your MAPPA posting—G is not only a top-tier React/TS engineer in Barcelona, but also delivers production-level agentic workflows and fullstack/AI integrations exactly as you describe ('no en un repositorio de investigación'). She owns cross-stack delivery, including API/schema, accessibility, and complex CMS integrations with LLM-powered features now live for real users. She's keen to explore where agentic development meets operational impact—let's connect."
+      },
+      "triageCorrect": false,
+      "deepCorrect": false,
+      "scoreDiff": 4
+    },
+    {
+      "id": "factorial-design-system",
+      "company": "Factorial",
+      "title": "Design System Engineer",
+      "expected": {
+        "label": "yes",
+        "score": 8,
+        "matchType": "direct",
+        "redFlags": [
+          "officeHeavy"
+        ],
+        "greenFlags": [
+          "aiFirstReal",
+          "designSystems"
+        ]
+      },
+      "detectedSignals": {
+        "hardReject": false,
+        "rejectReasons": [],
+        "redFlags": [
+          "cryptoHypeRisk",
+          "rubyCore",
+          "officeHeavy"
+        ],
+        "greenFlags": [
+          "startupSolidSignals",
+          "designSystems",
+          "leadershipScope",
+          "barcelonaHybrid"
+        ]
+      },
+      "triage": {
+        "fitScore": 9,
+        "matchType": "direct",
+        "reason": "Strong design system, AI-native product, React/TS, Barcelona hybrid location match."
+      },
+      "deep": {
+        "fitScore": 10,
+        "matchType": "stretch",
+        "redFlags": [],
+        "whyMatch": "Description seeks someone to 'own the architecture of our company-wide design system' and 'build tools and plugins that connect Figma to code to AI-driven workflows', both directly matching her deep experience in design systems, Figma integration, and modern AI-powered frontend engineering.",
+        "hiddenMatch": "Highlight her production AI agent implementation and end-to-end AI workflow leadership—she has 'built real AI-powered systems or workflows, not just experiments' as requested. Also surface her cross-team leadership, product-first mindset, and expertise in Figma plugin tooling and design-to-code bridges ('defining the technical architecture, tooling, documentation, governance...Figma-to-code pipelines').",
+        "outreach": "Hi! I’m sharing a Barcelona-based candidate who’s architected company-wide design systems, shipped real AI-enabled workflows, and bridges Figma-to-production for global orgs. She owns product, frontend, and cross-team architecture—including production AI agent integration and plugin tooling—matching your need for 'building the rails for AI-powered design to dev workflows' and 'engineer the product underneath the product.' She’ll bring both the technical firepower and the system-level product thinking you’re looking for."
+      },
+      "triageCorrect": true,
+      "deepCorrect": true,
+      "scoreDiff": 2
+    },
+    {
+      "id": "huspy-sr-fe-platform",
+      "company": "Huspy",
+      "title": "Senior Frontend Engineer / Software Engineer",
+      "expected": {
+        "label": "maybe",
+        "score": 7,
+        "matchType": "direct",
+        "redFlags": [],
+        "greenFlags": [
+          "remoteEU",
+          "startupSolidSignals",
+          "stackMatchReactTSNode",
+          "leadershipScope"
+        ]
+      },
+      "detectedSignals": {
+        "hardReject": false,
+        "rejectReasons": [],
+        "redFlags": [],
+        "greenFlags": [
+          "startupSolidSignals",
+          "stackMatchReactTSNode",
+          "leadershipScope",
+          "remoteEU"
+        ]
+      },
+      "triage": {
+        "fitScore": 8,
+        "matchType": "direct",
+        "reason": "Strong React/TypeScript and senior frontend; remote EU; well-funded, solid startup"
+      },
+      "deep": {
+        "fitScore": 9,
+        "matchType": "stretch",
+        "redFlags": [],
+        "whyMatch": "The description specifies ownership of key technical deliverables and collaboration across Product, Design, and Data teams, which align with her cross-team leadership and product thinking. The tech stack (React, TypeScript) and hands-on engineering focus are a direct fit.",
+        "hiddenMatch": "G should highlight her experience with fullstack (Node, API design)—the role values 'modern development practices' and cloud (CI/CD, AWS), as well as her cross-team coordination and ownership bridging design and frontend, precisely matching 'work closely with Product, Design, and Data teams to deliver impactful, client-focused products.' Also, her accessibility expertise and AI-driven workflows can differentiate her for a team seeking 'engineering excellence' and maintainable solutions.",
+        "outreach": "Hi! I see your Senior Frontend Engineer role asks for ownership of key technical deliverables and close collaboration across Product, Design, and Data—G is not only strong on React/TypeScript, but also regularly leads fullstack and API design, and bridges design-system implementation. Her expertise in accessibility, AI-assisted workflows, and cross-team leadership fits your needs for engineering excellence and impactful product delivery."
+      },
+      "triageCorrect": true,
+      "deepCorrect": true,
+      "scoreDiff": 2
+    },
+    {
+      "id": "fx-digital-sr-swe-connected-tv",
+      "company": "FX Digital",
+      "title": "Senior Software Engineer",
+      "expected": {
+        "label": "maybe",
+        "score": 6,
+        "matchType": "stretch",
+        "redFlags": [],
+        "greenFlags": [
+          "barcelonaHybrid",
+          "leadershipScope"
+        ]
+      },
+      "detectedSignals": {
+        "hardReject": false,
+        "rejectReasons": [],
+        "redFlags": [],
+        "greenFlags": [
+          "leadershipScope",
+          "barcelonaHybrid"
+        ]
+      },
+      "triage": {
+        "fitScore": 8,
+        "matchType": "direct",
+        "reason": "Strong React/TS/fullstack experience; Barcelona hybrid; senior frontend role with mentoring"
+      },
+      "deep": {
+        "fitScore": 9,
+        "matchType": "stretch",
+        "redFlags": [],
+        "whyMatch": "Direct match on 'lead technical solutions for Connected TV, mobile and interactivity across smart devices' and 'mentor team members.' Her React/TypeScript/fullstack stack aligns with 'expert knowledge of TypeScript and the Javascript eco-system' and integration experience.",
+        "hiddenMatch": "The role emphasizes 'lead technical solutions', 'providing technical insight in customer meetings', and 'collaborate with sales and marketing to present technical solutions to prospective clients.' G’s background in cross-team leadership, public speaking, and product thinking fits these but is hidden on her CV. Also, the 'optimised, reliable, and maintainable code', as well as accessibility needs ('engaging user experiences for large screen devices'), connect directly to her accessibility work and product ownership.",
+        "outreach": "Hi FX Digital team! I have a Barcelona-based Senior Engineer with deep React/TypeScript experience who not only leads frontend delivery but also handles product ownership, cross-team technical leadership, and presents technical solutions to clients—perfect for your 'lead technical solutions' and 'provide technical insight in customer meetings' needs. She’s fluent in both Spanish and English and brings extensive accessibility, design-engineering, and public speaking experience—ready to uplift your Connected TV projects. Would love to introduce her for a conversation!"
+      },
+      "triageCorrect": true,
+      "deepCorrect": true,
+      "scoreDiff": 3
+    },
+    {
+      "id": "zurich-sr-ai-agentic-workflows",
+      "company": "Zurich Technology Delivery Center",
+      "title": "Senior AI Engineer - Agentic Workflows",
+      "expected": {
+        "label": "maybe",
+        "score": 6,
+        "matchType": "stretch",
+        "redFlags": [
+          "legacyStackCore"
+        ],
+        "greenFlags": [
+          "barcelonaHybrid",
+          "aiFirstReal",
+          "leadershipScope"
+        ]
+      },
+      "detectedSignals": {
+        "hardReject": false,
+        "rejectReasons": [],
+        "redFlags": [
+          "cryptoHypeRisk"
+        ],
+        "greenFlags": [
+          "aiFirstReal",
+          "leadershipScope",
+          "barcelonaHybrid"
+        ]
+      },
+      "triage": {
+        "fitScore": 7,
+        "matchType": "stretch",
+        "reason": "AI engineering fits candidate's AI and fullstack skills; frontend stack less emphasized."
+      },
+      "deep": {
+        "fitScore": 8,
+        "matchType": "stretch",
+        "redFlags": [
+          "5+ years of Python required; candidate's CV does not explicitly mention Python experience",
+          "Direct experience with production LLM systems not visible on CV"
+        ],
+        "whyMatch": "The description emphasizes 'Agentic Workflows', 'cross-functional collaboration', and 'designing workflows with LangGraph or similar', all aligning with her fullstack, AI integration, product, and design-system expertise—even if not obvious from her frontend-focused CV.",
+        "hiddenMatch": "Highlight her 'production AI agent implementation (top 10-15% FE globally)', 'AI-assisted workflows', and fullstack experience ('comfortable with Node, API design, schema contracts')—all directly relevant to 'production systems with Large Language Models', 'define workflows, components', and 'cross-functional collaboration'. Her experience building Figma plugins and AI tool integrations (e.g. Copilot agents, Figma Code Connect) are analogues for agent/tool pattern in the description.",
+        "outreach": "Hi Alvaro, I have a Barcelona-based senior engineer who has led production AI agent implementations and AI-assisted workflows across multiple teams—experience highly analogous to your 'agentic workflows', 'tool/agent composition', and 'cross-functional collaboration' needs. Although her CV states 'frontend', she owns end-to-end system design, API contracts, and has delivered agent-powered design/dev workflow tools at scale—precisely the type of architect you describe. She's also fluent in English/Spanish and is a confident public speaker, adding value in mentoring and technical guidance."
+      },
+      "triageCorrect": true,
+      "deepCorrect": true,
+      "scoreDiff": 2
+    },
+    {
+      "id": "happyrobot-forward-deployed-france",
+      "company": "HappyRobot",
+      "title": "Forward Deployed Engineer (Founding France Team Member)",
+      "expected": {
+        "label": "maybe",
+        "score": 5,
+        "matchType": "stretch",
+        "redFlags": [
+          "locationMismatch",
+          "startupFragileRisk",
+          "languageMismatch"
+        ],
+        "greenFlags": [
+          "aiFirstReal",
+          "startupSolidSignals",
+          "stackMatchReactTSNode"
+        ]
+      },
+      "detectedSignals": {
+        "hardReject": false,
+        "rejectReasons": [],
+        "redFlags": [
+          "startupFragileRisk",
+          "locationMismatch",
+          "languageMismatch"
+        ],
+        "greenFlags": [
+          "startupSolidSignals",
+          "stackMatchReactTSNode",
+          "leadershipScope"
+        ]
+      },
+      "triage": {
+        "fitScore": 8,
+        "matchType": "direct",
+        "reason": "Strong React/TS/fullstack AI role at well-funded startup, hybrid EU location OK"
+      },
+      "deep": {
+        "fitScore": 9,
+        "matchType": "stretch",
+        "redFlags": [
+          "Location may be France-specific, G is Barcelona-based (Spain/EU); hands-on Python not prominent in experience materials."
+        ],
+        "whyMatch": "Role emphasizes customer-facing engineering, full-stack skills (React/TS/Node), product development, and AI integration—G meets or exceeds all. Her experience at the design-dev boundary, AI agent workflows, and cross-team leadership aligns precisely with the job’s 'build/own/execute' culture.",
+        "hiddenMatch": "G's actual fullstack skills (Node, API contracts), AI agent implementation, design ownership, accessibility, and cross-team coordination are central. Specifically, the description’s 'Full-Stack Development – Utilize React, TypeScript, Node.js, and Python' and 'AI/ML Applications – Design, implement, and iterate on AI/ML solutions' match her hidden strengths in production AI agents, cross-team architecture, and design system ownership, which are not visible in her 'frontend' CV.",
+        "outreach": "Hi there! I’m presenting a Barcelona-based Senior Frontend Engineer with fullstack, design ownership, and AI agent experience, who aligns with your call for builders who 'execute, build, own, and care deeply about customer success.' She’s led cross-team product delivery, built production AI agent workflows, and specializes at the design-dev boundary—matching your need for full-stack React/TS/Node engineers who also drive real adoption and iterate directly with customers. Her leadership at the intersection of engineering, product, and AI-driven workflows would shine in your forward-deployed team."
+      },
+      "triageCorrect": true,
+      "deepCorrect": true,
+      "scoreDiff": 4
+    },
+    {
+      "id": "italki-fe-react",
+      "company": "italki",
+      "title": "Frontend Developer / Frontend Engineer",
+      "expected": {
+        "label": "maybe",
+        "score": 5,
+        "matchType": "direct",
+        "redFlags": [],
+        "greenFlags": []
+      },
+      "detectedSignals": {
+        "hardReject": false,
+        "rejectReasons": [],
+        "redFlags": [
+          "locationMismatch"
+        ],
+        "greenFlags": [
+          "leadershipScope"
+        ]
+      },
+      "triage": {
+        "fitScore": 7,
+        "matchType": "stretch",
+        "reason": "Strong React and frontend match but unclear location and company tier"
+      },
+      "deep": {
+        "fitScore": 8,
+        "matchType": "stretch",
+        "redFlags": [
+          "Company tier unclear; not certain if recognized at desired scale or reputation",
+          "Location not specified (could affect fit)",
+          "No mention of AI or modern design/engineering culture"
+        ],
+        "whyMatch": "Requires 'participate in global product development' and 'work closely with back-end technical team', which align with her real product/architecture and fullstack strengths. The accessibility and performance optimization focus is a strong match for her hidden expertise.",
+        "hiddenMatch": "The description requests 'work closely with the back-end technical team' and 'improve access experience', which maps perfectly to her real-world experience in fullstack API design, cross-team coordination, and specialized accessibility work—significantly beyond her CV's frontend-only framing.",
+        "outreach": "Hi, I saw your opening for a Frontend Developer focused on 'global business line product development' and collaboration with the back-end team. G is a Barcelona-based senior FE/React expert who actually bridges fullstack, product architecture, and accessibility at scale—her real strength is driving cross-team solutions and access experience improvements you highlight, rather than pure frontend pages. If you value design/engineering maturity and hands-on API or accessibility integration, she's a match."
+      },
+      "triageCorrect": true,
+      "deepCorrect": true,
+      "scoreDiff": 3
+    },
+    {
+      "id": "fotocasa-web-engineer",
+      "company": "Fotocasa Group",
+      "title": "Web Engineer",
+      "expected": {
+        "label": "yes",
+        "score": 8,
+        "matchType": "direct",
+        "redFlags": [],
+        "greenFlags": [
+          "barcelonaHybrid",
+          "aiFirstReal",
+          "stackMatchReactTSNode",
+          "leadershipScope"
+        ]
+      },
+      "detectedSignals": {
+        "hardReject": false,
+        "rejectReasons": [],
+        "redFlags": [],
+        "greenFlags": [
+          "aiFirstReal",
+          "leadershipScope",
+          "barcelonaHybrid"
+        ]
+      },
+      "triage": {
+        "fitScore": 8,
+        "matchType": "direct",
+        "reason": "Strong React/TS experience, Barcelona hybrid, AI tools used, solid frontend role"
+      },
+      "deep": {
+        "fitScore": 9,
+        "matchType": "stretch",
+        "redFlags": [],
+        "whyMatch": "G matches 'TypeScript, React, and Tailwind CSS' and has 'AI-assisted development' and 'strong communication and collaboration skills' as required. The job's emphasis on DDD, AI tools, and cross-team work aligns closely with her hidden strengths.",
+        "hiddenMatch": "Highlight her fullstack work, AI agent implementation, and cross-team leadership as key for 'Implement solutions within our domain using Domain-Driven Design (DDD)', 'Leverage AI-assisted development tools', and 'work effectively across multiple engineering teams.' Also emphasize her accessibility and product thinking relevant to 'ensure an excellent user experience' and 'contribute to the definition of best practices.'",
+        "outreach": "Hi! I’d like to recommend G for your Web Engineer position—she’s a Barcelona-based Senior Frontend Engineer with deep TypeScript/React expertise, and unique strengths not obvious from her CV: she’s implemented production AI agent workflows, delivered cross-team architecture (including CMS and accessibility), and routinely leads both tech and product conversations. With hands-on DDD, AI tools, and proven excellence in design-dev handoff, she fits your push toward multidisciplinary, outcome-oriented engineering. Happy to connect and share how her leadership and AI-driven delivery style can help Fotocasa reach its innovation goals."
+      },
+      "triageCorrect": true,
+      "deepCorrect": true,
+      "scoreDiff": 1
+    }
+  ]
+}
